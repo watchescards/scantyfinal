@@ -103,7 +103,6 @@
     }
   </style>
   <style type="text/css">
- 
     :root {
       --blue: #007bff;
       --indigo: #6610f2;
@@ -115,7 +114,7 @@
       --green: #28a745;
       --teal: #20c997;
       --cyan: #17a2b8;
-      --white: #fff;
+      --white: #000;
       --gray: #6c757d;
       --gray-dark: #343a40;
       --primary: #007bff;
@@ -169,7 +168,7 @@
       line-height: 1.5;
       color: #212529;
       text-align: left;
-      background-color:#fff
+      background-color: #000
     }
 
     [tabindex="-1"]:focus:not(.focus-visible),
@@ -211,6 +210,7 @@
 
     address {
       font-style: normal;
+      color: #fff;
       line-height: inherit
     }
 
@@ -378,7 +378,8 @@
     }
 
     select {
-      word-wrap: normal
+      word-wrap: normal;
+      color: #fff
     }
 
     [type=button],
@@ -430,7 +431,8 @@
       font-size: 1.5rem;
       line-height: inherit;
       color: inherit;
-      white-space: normal
+      white-space: normal;
+      color: #fff
     }
 
     progress {
@@ -614,7 +616,7 @@
 
     .img-thumbnail {
       padding: .25rem;
-      background-color: #fff;
+      background-color: #000;
       border: 1px solid #dee2e6;
       border-radius: .25rem
     }
@@ -646,7 +648,7 @@
     kbd {
       padding: .2rem .4rem;
       font-size: 87.5%;
-      color: #fff;
+      color: #000;
       background-color: #212529;
       border-radius: .2rem
     }
@@ -666,7 +668,8 @@
     pre code {
       font-size: inherit;
       color: inherit;
-      word-break: normal
+      word-break: normal;
+      color: #fff
     }
 
     .pre-scrollable {
@@ -2089,7 +2092,7 @@
     }
 
     .table .thead-dark th {
-      color: #fff;
+      color: #000;
       background-color: #343a40;
       border-color: #454d55
     }
@@ -2101,7 +2104,7 @@
     }
 
     .table-dark {
-      color: #fff;
+      color: #000;
       background-color: #343a40
     }
 
@@ -2120,7 +2123,7 @@
     }
 
     .table-dark.table-hover tbody tr:hover {
-      color: #fff;
+      color: #000;
       background-color: hsla(0, 0%, 100%, .075)
     }
 
@@ -2196,7 +2199,7 @@
       font-weight: 400;
       line-height: 1.5;
       color: #495057;
-      background-color: #fff;
+      background-color: #000;
       background-clip: padding-box;
       border: 1px solid #ced4da;
       border-radius: .25rem;
@@ -2216,7 +2219,7 @@
 
     .form-control:focus {
       color: #495057;
-      background-color: #fff;
+      background-color: #000;
       border-color: #80bdff;
       outline: 0;
       box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
@@ -2259,7 +2262,7 @@
 
     select.form-control:focus::-ms-value {
       color: #495057;
-      background-color: #fff
+      background-color: #000
     }
 
     .form-control-file,
@@ -2407,7 +2410,7 @@
       margin-top: .1rem;
       font-size: .875rem;
       line-height: 1.5;
-      color: #fff;
+      color: #000;
       background-color: rgba(40, 167, 69, .9);
       border-radius: .25rem
     }
@@ -2456,7 +2459,7 @@
     .was-validated .custom-select:valid {
       border-color: #28a745;
       padding-right: calc(.75em + 2.3125rem) !important;
-      background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") right .75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E") center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem) no-repeat
+      background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") right .75rem center/8px 10px no-repeat, #000 url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E") center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem) no-repeat
     }
 
     .custom-select.is-valid:focus,
@@ -2530,7 +2533,7 @@
       margin-top: .1rem;
       font-size: .875rem;
       line-height: 1.5;
-      color: #fff;
+      color: #000;
       background-color: rgba(220, 53, 69, .9);
       border-radius: .25rem
     }
@@ -2579,7 +2582,7 @@
     .was-validated .custom-select:invalid {
       border-color: #dc3545;
       padding-right: calc(.75em + 2.3125rem) !important;
-      background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") right .75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545'%3E%3Ccircle cx='6' cy='6' r='4.5'/%3E%3Cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3E%3Ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3E%3C/svg%3E") center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem) no-repeat
+      background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") right .75rem center/8px 10px no-repeat, #000 url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545'%3E%3Ccircle cx='6' cy='6' r='4.5'/%3E%3Cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3E%3Ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3E%3C/svg%3E") center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem) no-repeat
     }
 
     .custom-select.is-invalid:focus,
@@ -2753,7 +2756,7 @@
     }
 
     .btn-primary {
-      color: #fff;
+      color: #000;
       background-color: #007bff;
       border-color: #007bff
     }
@@ -2761,7 +2764,7 @@
     .btn-primary.focus,
     .btn-primary:focus,
     .btn-primary:hover {
-      color: #fff;
+      color: #000;
       background-color: #0069d9;
       border-color: #0062cc
     }
@@ -2773,7 +2776,7 @@
 
     .btn-primary.disabled,
     .btn-primary:disabled {
-      color: #fff;
+      color: #000;
       background-color: #007bff;
       border-color: #007bff
     }
@@ -2781,7 +2784,7 @@
     .btn-primary:not(:disabled):not(.disabled).active,
     .btn-primary:not(:disabled):not(.disabled):active,
     .show>.btn-primary.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #0062cc;
       border-color: #005cbf
     }
@@ -2793,7 +2796,7 @@
     }
 
     .btn-secondary {
-      color: #fff;
+      color: #000;
       background-color: #6c757d;
       border-color: #6c757d
     }
@@ -2801,7 +2804,7 @@
     .btn-secondary.focus,
     .btn-secondary:focus,
     .btn-secondary:hover {
-      color: #fff;
+      color: #000;
       background-color: #5a6268;
       border-color: #545b62
     }
@@ -2813,7 +2816,7 @@
 
     .btn-secondary.disabled,
     .btn-secondary:disabled {
-      color: #fff;
+      color: #000;
       background-color: #6c757d;
       border-color: #6c757d
     }
@@ -2821,7 +2824,7 @@
     .btn-secondary:not(:disabled):not(.disabled).active,
     .btn-secondary:not(:disabled):not(.disabled):active,
     .show>.btn-secondary.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #545b62;
       border-color: #4e555b
     }
@@ -2833,7 +2836,7 @@
     }
 
     .btn-success {
-      color: #fff;
+      color: #000;
       background-color: #28a745;
       border-color: #28a745
     }
@@ -2841,7 +2844,7 @@
     .btn-success.focus,
     .btn-success:focus,
     .btn-success:hover {
-      color: #fff;
+      color: #000;
       background-color: #218838;
       border-color: #1e7e34
     }
@@ -2853,7 +2856,7 @@
 
     .btn-success.disabled,
     .btn-success:disabled {
-      color: #fff;
+      color: #000;
       background-color: #28a745;
       border-color: #28a745
     }
@@ -2861,7 +2864,7 @@
     .btn-success:not(:disabled):not(.disabled).active,
     .btn-success:not(:disabled):not(.disabled):active,
     .show>.btn-success.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #1e7e34;
       border-color: #1c7430
     }
@@ -2873,7 +2876,7 @@
     }
 
     .btn-info {
-      color: #fff;
+      color: #000;
       background-color: #17a2b8;
       border-color: #17a2b8
     }
@@ -2881,7 +2884,7 @@
     .btn-info.focus,
     .btn-info:focus,
     .btn-info:hover {
-      color: #fff;
+      color: #000;
       background-color: #138496;
       border-color: #117a8b
     }
@@ -2893,7 +2896,7 @@
 
     .btn-info.disabled,
     .btn-info:disabled {
-      color: #fff;
+      color: #000;
       background-color: #17a2b8;
       border-color: #17a2b8
     }
@@ -2901,7 +2904,7 @@
     .btn-info:not(:disabled):not(.disabled).active,
     .btn-info:not(:disabled):not(.disabled):active,
     .show>.btn-info.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #117a8b;
       border-color: #10707f
     }
@@ -2953,7 +2956,7 @@
     }
 
     .btn-danger {
-      color: #fff;
+      color: #000;
       background-color: #dc3545;
       border-color: #dc3545
     }
@@ -2961,7 +2964,7 @@
     .btn-danger.focus,
     .btn-danger:focus,
     .btn-danger:hover {
-      color: #fff;
+      color: #000;
       background-color: #c82333;
       border-color: #bd2130
     }
@@ -2973,7 +2976,7 @@
 
     .btn-danger.disabled,
     .btn-danger:disabled {
-      color: #fff;
+      color: #000;
       background-color: #dc3545;
       border-color: #dc3545
     }
@@ -2981,7 +2984,7 @@
     .btn-danger:not(:disabled):not(.disabled).active,
     .btn-danger:not(:disabled):not(.disabled):active,
     .show>.btn-danger.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #bd2130;
       border-color: #b21f2d
     }
@@ -3033,7 +3036,7 @@
     }
 
     .btn-dark {
-      color: #fff;
+      color: #000;
       background-color: #343a40;
       border-color: #343a40
     }
@@ -3041,7 +3044,7 @@
     .btn-dark.focus,
     .btn-dark:focus,
     .btn-dark:hover {
-      color: #fff;
+      color: #000;
       background-color: #23272b;
       border-color: #1d2124
     }
@@ -3053,7 +3056,7 @@
 
     .btn-dark.disabled,
     .btn-dark:disabled {
-      color: #fff;
+      color: #000;
       background-color: #343a40;
       border-color: #343a40
     }
@@ -3061,7 +3064,7 @@
     .btn-dark:not(:disabled):not(.disabled).active,
     .btn-dark:not(:disabled):not(.disabled):active,
     .show>.btn-dark.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #1d2124;
       border-color: #171a1d
     }
@@ -3078,7 +3081,7 @@
     }
 
     .btn-outline-primary:hover {
-      color: #fff;
+      color: #000;
       background-color: #007bff;
       border-color: #007bff
     }
@@ -3097,7 +3100,7 @@
     .btn-outline-primary:not(:disabled):not(.disabled).active,
     .btn-outline-primary:not(:disabled):not(.disabled):active,
     .show>.btn-outline-primary.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #007bff;
       border-color: #007bff
     }
@@ -3114,7 +3117,7 @@
     }
 
     .btn-outline-secondary:hover {
-      color: #fff;
+      color: #000;
       background-color: #6c757d;
       border-color: #6c757d
     }
@@ -3133,7 +3136,7 @@
     .btn-outline-secondary:not(:disabled):not(.disabled).active,
     .btn-outline-secondary:not(:disabled):not(.disabled):active,
     .show>.btn-outline-secondary.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #6c757d;
       border-color: #6c757d
     }
@@ -3150,7 +3153,7 @@
     }
 
     .btn-outline-success:hover {
-      color: #fff;
+      color: #000;
       background-color: #28a745;
       border-color: #28a745
     }
@@ -3169,7 +3172,7 @@
     .btn-outline-success:not(:disabled):not(.disabled).active,
     .btn-outline-success:not(:disabled):not(.disabled):active,
     .show>.btn-outline-success.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #28a745;
       border-color: #28a745
     }
@@ -3186,7 +3189,7 @@
     }
 
     .btn-outline-info:hover {
-      color: #fff;
+      color: #000;
       background-color: #17a2b8;
       border-color: #17a2b8
     }
@@ -3205,7 +3208,7 @@
     .btn-outline-info:not(:disabled):not(.disabled).active,
     .btn-outline-info:not(:disabled):not(.disabled):active,
     .show>.btn-outline-info.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #17a2b8;
       border-color: #17a2b8
     }
@@ -3258,7 +3261,7 @@
     }
 
     .btn-outline-danger:hover {
-      color: #fff;
+      color: #000;
       background-color: #dc3545;
       border-color: #dc3545
     }
@@ -3277,7 +3280,7 @@
     .btn-outline-danger:not(:disabled):not(.disabled).active,
     .btn-outline-danger:not(:disabled):not(.disabled):active,
     .show>.btn-outline-danger.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #dc3545;
       border-color: #dc3545
     }
@@ -3330,7 +3333,7 @@
     }
 
     .btn-outline-dark:hover {
-      color: #fff;
+      color: #000;
       background-color: #343a40;
       border-color: #343a40
     }
@@ -3349,7 +3352,7 @@
     .btn-outline-dark:not(:disabled):not(.disabled).active,
     .btn-outline-dark:not(:disabled):not(.disabled):active,
     .show>.btn-outline-dark.dropdown-toggle {
-      color: #fff;
+      color: #000;
       background-color: #343a40;
       border-color: #343a40
     }
@@ -3484,7 +3487,7 @@
       color: #212529;
       text-align: left;
       list-style: none;
-      background-color: #fff;
+      background-color: #000;
       background-clip: padding-box;
       border: 1px solid rgba(0, 0, 0, .15);
       border-radius: .25rem
@@ -3668,7 +3671,7 @@
 
     .dropdown-item.active,
     .dropdown-item:active {
-      color: #fff;
+      color: #000;
       text-decoration: none;
       background-color: #007bff
     }
@@ -4039,7 +4042,7 @@
     }
 
     .custom-control-input:checked~.custom-control-label:before {
-      color: #fff;
+      color: #000;
       border-color: #007bff;
       background-color: #007bff
     }
@@ -4053,7 +4056,7 @@
     }
 
     .custom-control-input:not(:disabled):active~.custom-control-label:before {
-      color: #fff;
+      color: #000;
       background-color: #b3d7ff;
       border-color: #b3d7ff
     }
@@ -4076,7 +4079,7 @@
 
     .custom-control-label:before {
       pointer-events: none;
-      background-color: #fff;
+      background-color: #000;
       border: 1px solid #adb5bd
     }
 
@@ -4160,7 +4163,7 @@
     }
 
     .custom-switch .custom-control-input:checked~.custom-control-label:after {
-      background-color: #fff;
+      background-color: #000;
       transform: translateX(.75rem)
     }
 
@@ -4178,7 +4181,7 @@
       line-height: 1.5;
       color: #495057;
       vertical-align: middle;
-      background: #fff url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") right .75rem center/8px 10px no-repeat;
+      background: #000 url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") right .75rem center/8px 10px no-repeat;
       border: 1px solid #ced4da;
       border-radius: .25rem;
       -webkit-appearance: none;
@@ -4194,7 +4197,7 @@
 
     .custom-select:focus::-ms-value {
       color: #495057;
-      background-color: #fff
+      background-color: #000
     }
 
     .custom-select[multiple],
@@ -4277,7 +4280,7 @@
       height: calc(1.5em + .75rem + 2px);
       overflow: hidden;
       font-weight: 400;
-      background-color: #fff;
+      background-color: #000;
       border: 1px solid #ced4da;
       border-radius: .25rem
     }
@@ -4318,15 +4321,15 @@
     }
 
     .custom-range:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem rgba(0, 123, 255, .25)
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem rgba(0, 123, 255, .25)
     }
 
     .custom-range:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem rgba(0, 123, 255, .25)
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem rgba(0, 123, 255, .25)
     }
 
     .custom-range:focus::-ms-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem rgba(0, 123, 255, .25)
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem rgba(0, 123, 255, .25)
     }
 
     .custom-range::-moz-focus-outer {
@@ -4529,8 +4532,8 @@
     .nav-tabs .nav-item.show .nav-link,
     .nav-tabs .nav-link.active {
       color: #495057;
-      background-color: #fff;
-      border-color: #dee2e6 #dee2e6 #fff
+      background-color: #000;
+      border-color: #dee2e6 #dee2e6 #000
     }
 
     .nav-tabs .dropdown-menu {
@@ -4545,7 +4548,7 @@
 
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
-      color: #fff;
+      color: #000;
       background-color: #007bff
     }
 
@@ -4979,7 +4982,7 @@
     .navbar-dark .navbar-brand,
     .navbar-dark .navbar-brand:focus,
     .navbar-dark .navbar-brand:hover {
-      color: #fff
+      color: #000
     }
 
     .navbar-dark .navbar-nav .nav-link {
@@ -4999,7 +5002,7 @@
     .navbar-dark .navbar-nav .nav-link.active,
     .navbar-dark .navbar-nav .nav-link.show,
     .navbar-dark .navbar-nav .show>.nav-link {
-      color: #fff
+      color: #000
     }
 
     .navbar-dark .navbar-toggler {
@@ -5018,7 +5021,7 @@
     .navbar-dark .navbar-text a,
     .navbar-dark .navbar-text a:focus,
     .navbar-dark .navbar-text a:hover {
-      color: #fff
+      color: #000
     }
 
     .card {
@@ -5027,7 +5030,7 @@
       flex-direction: column;
       min-width: 0;
       word-wrap: break-word;
-      background-color: #fff;
+      background-color: #000;
       background-clip: border-box;
       border: 1px solid rgba(0, 0, 0, .125);
       border-radius: .25rem
@@ -5309,7 +5312,7 @@
       margin-left: -1px;
       line-height: 1.25;
       color: #007bff;
-      background-color: #fff;
+      background-color: #000;
       border: 1px solid #dee2e6
     }
 
@@ -5340,7 +5343,7 @@
 
     .page-item.active .page-link {
       z-index: 3;
-      color: #fff;
+      color: #000;
       background-color: #007bff;
       border-color: #007bff
     }
@@ -5349,7 +5352,7 @@
       color: #6c757d;
       pointer-events: none;
       cursor: auto;
-      background-color: #fff;
+      background-color: #000;
       border-color: #dee2e6
     }
 
@@ -5425,13 +5428,13 @@
     }
 
     .badge-primary {
-      color: #fff;
+      color: #000;
       background-color: #007bff
     }
 
     a.badge-primary:focus,
     a.badge-primary:hover {
-      color: #fff;
+      color: #000;
       background-color: #0062cc
     }
 
@@ -5442,13 +5445,13 @@
     }
 
     .badge-secondary {
-      color: #fff;
+      color: #000;
       background-color: #6c757d
     }
 
     a.badge-secondary:focus,
     a.badge-secondary:hover {
-      color: #fff;
+      color: #000;
       background-color: #545b62
     }
 
@@ -5459,13 +5462,13 @@
     }
 
     .badge-success {
-      color: #fff;
+      color: #000;
       background-color: #28a745
     }
 
     a.badge-success:focus,
     a.badge-success:hover {
-      color: #fff;
+      color: #000;
       background-color: #1e7e34
     }
 
@@ -5476,13 +5479,13 @@
     }
 
     .badge-info {
-      color: #fff;
+      color: #000;
       background-color: #17a2b8
     }
 
     a.badge-info:focus,
     a.badge-info:hover {
-      color: #fff;
+      color: #000;
       background-color: #117a8b
     }
 
@@ -5510,13 +5513,13 @@
     }
 
     .badge-danger {
-      color: #fff;
+      color: #000;
       background-color: #dc3545
     }
 
     a.badge-danger:focus,
     a.badge-danger:hover {
-      color: #fff;
+      color: #000;
       background-color: #bd2130
     }
 
@@ -5544,13 +5547,13 @@
     }
 
     .badge-dark {
-      color: #fff;
+      color: #000;
       background-color: #343a40
     }
 
     a.badge-dark:focus,
     a.badge-dark:hover {
-      color: #fff;
+      color: #000;
       background-color: #1d2124
     }
 
@@ -5666,7 +5669,7 @@
 
     .alert-warning {
       color: #856404;
-      background-color: #fff3cd;
+      background-color: #0003cd;
       border-color: #ffeeba
     }
 
@@ -5757,7 +5760,7 @@
     .progress-bar {
       flex-direction: column;
       justify-content: center;
-      color: #fff;
+      color: #000;
       text-align: center;
       white-space: nowrap;
       background-color: #007bff;
@@ -5827,7 +5830,7 @@
       position: relative;
       display: block;
       padding: .75rem 1.25rem;
-      background-color: #fff;
+      background-color: #000;
       border: 1px solid rgba(0, 0, 0, .125)
     }
 
@@ -5845,12 +5848,12 @@
     .list-group-item:disabled {
       color: #6c757d;
       pointer-events: none;
-      background-color: #fff
+      background-color: #000
     }
 
     .list-group-item.active {
       z-index: 2;
-      color: #fff;
+      color: #000;
       background-color: #007bff;
       border-color: #007bff
     }
@@ -6036,7 +6039,7 @@
     }
 
     .list-group-item-primary.list-group-item-action.active {
-      color: #fff;
+      color: #000;
       background-color: #004085;
       border-color: #004085
     }
@@ -6053,7 +6056,7 @@
     }
 
     .list-group-item-secondary.list-group-item-action.active {
-      color: #fff;
+      color: #000;
       background-color: #383d41;
       border-color: #383d41
     }
@@ -6070,7 +6073,7 @@
     }
 
     .list-group-item-success.list-group-item-action.active {
-      color: #fff;
+      color: #000;
       background-color: #155724;
       border-color: #155724
     }
@@ -6087,7 +6090,7 @@
     }
 
     .list-group-item-info.list-group-item-action.active {
-      color: #fff;
+      color: #000;
       background-color: #0c5460;
       border-color: #0c5460
     }
@@ -6104,7 +6107,7 @@
     }
 
     .list-group-item-warning.list-group-item-action.active {
-      color: #fff;
+      color: #000;
       background-color: #856404;
       border-color: #856404
     }
@@ -6121,7 +6124,7 @@
     }
 
     .list-group-item-danger.list-group-item-action.active {
-      color: #fff;
+      color: #000;
       background-color: #721c24;
       border-color: #721c24
     }
@@ -6138,7 +6141,7 @@
     }
 
     .list-group-item-light.list-group-item-action.active {
-      color: #fff;
+      color: #000;
       background-color: #818182;
       border-color: #818182
     }
@@ -6155,7 +6158,7 @@
     }
 
     .list-group-item-dark.list-group-item-action.active {
-      color: #fff;
+      color: #000;
       background-color: #1b1e21;
       border-color: #1b1e21
     }
@@ -6166,7 +6169,7 @@
       font-weight: 700;
       line-height: 1;
       color: #000;
-      text-shadow: 0 1px 0 #fff;
+      text-shadow: 0 1px 0 #000;
       opacity: .5
     }
 
@@ -6336,7 +6339,7 @@
       flex-direction: column;
       width: 100%;
       pointer-events: auto;
-      background-color: #fff;
+      background-color: #000;
       background-clip: padding-box;
       border: 1px solid rgba(0, 0, 0, .2);
       border-radius: .3rem;
@@ -6469,6 +6472,7 @@
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       font-style: normal;
+      color: #fff;
       font-weight: 400;
       line-height: 1.5;
       text-align: left;
@@ -6476,9 +6480,13 @@
       text-shadow: none;
       text-transform: none;
       letter-spacing: normal;
+      color: #fff;
       word-break: normal;
+      color: #fff;
       word-spacing: normal;
+      color: #fff;
       white-space: normal;
+      color: #fff;
       line-break: auto;
       font-size: .875rem;
       word-wrap: break-word;
@@ -6578,7 +6586,7 @@
     .tooltip-inner {
       max-width: 200px;
       padding: .25rem .5rem;
-      color: #fff;
+      color: #000;
       text-align: center;
       background-color: #000;
       border-radius: .25rem
@@ -6599,6 +6607,7 @@
       max-width: 276px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       font-style: normal;
+      color: #fff;
       font-weight: 400;
       line-height: 1.5;
       text-align: left;
@@ -6606,13 +6615,17 @@
       text-shadow: none;
       text-transform: none;
       letter-spacing: normal;
+      color: #fff;
       word-break: normal;
+      color: #fff;
       word-spacing: normal;
+      color: #fff;
       white-space: normal;
+      color: #fff;
       line-break: auto;
       font-size: .875rem;
       word-wrap: break-word;
-      background-color: #fff;
+      background-color: #000;
       background-clip: padding-box;
       border: 1px solid rgba(0, 0, 0, .2);
       border-radius: .3rem
@@ -6660,7 +6673,7 @@
     .bs-popover-top>.arrow:after {
       bottom: 1px;
       border-width: .5rem .5rem 0;
-      border-top-color: #fff
+      border-top-color: #000
     }
 
     .bs-popover-auto[x-placement^=right],
@@ -6687,7 +6700,7 @@
     .bs-popover-right>.arrow:after {
       left: 1px;
       border-width: .5rem .5rem .5rem 0;
-      border-right-color: #fff
+      border-right-color: #000
     }
 
     .bs-popover-auto[x-placement^=bottom],
@@ -6711,7 +6724,7 @@
     .bs-popover-bottom>.arrow:after {
       top: 1px;
       border-width: 0 .5rem .5rem;
-      border-bottom-color: #fff
+      border-bottom-color: #000
     }
 
     .bs-popover-auto[x-placement^=bottom] .popover-header:before,
@@ -6750,7 +6763,7 @@
     .bs-popover-left>.arrow:after {
       right: 1px;
       border-width: .5rem 0 .5rem .5rem;
-      border-left-color: #fff
+      border-left-color: #000
     }
 
     .popover-header {
@@ -6864,7 +6877,7 @@
       justify-content: center;
       width: 15%;
       padding: 0;
-      color: #fff;
+      color: #000;
       text-align: center;
       background: none;
       border: 0;
@@ -6884,7 +6897,7 @@
     .carousel-control-next:hover,
     .carousel-control-prev:focus,
     .carousel-control-prev:hover {
-      color: #fff;
+      color: #000;
       text-decoration: none;
       outline: 0;
       opacity: .9
@@ -6937,7 +6950,7 @@
       margin-left: 3px;
       text-indent: -999px;
       cursor: pointer;
-      background-color: #fff;
+      background-color: #000;
       background-clip: padding-box;
       border-top: 10px solid transparent;
       border-bottom: 10px solid transparent;
@@ -6963,7 +6976,7 @@
       z-index: 10;
       padding-top: 20px;
       padding-bottom: 20px;
-      color: #fff;
+      color: #000;
       text-align: center
     }
 
@@ -7158,7 +7171,7 @@
     }
 
     .bg-white {
-      background-color: #fff !important
+      background-color: #000 !important
     }
 
     .bg-transparent {
@@ -7238,7 +7251,7 @@
     }
 
     .border-white {
-      border-color: #fff !important
+      border-color: #000 !important
     }
 
     .rounded-sm {
@@ -8413,7 +8426,8 @@
       height: auto;
       overflow: visible;
       clip: auto;
-      white-space: normal
+      white-space: normal;
+      color: #fff
     }
 
     .shadow-sm {
@@ -10685,7 +10699,8 @@
     }
 
     .text-wrap {
-      white-space: normal !important
+      white-space: normal;
+      color: #fff !important
     }
 
     .text-nowrap {
@@ -10786,7 +10801,9 @@
       font-weight: lighter !important
     }
 
-    .font-weight-normal {
+    .font-weight-normal;
+
+    color:#fff {
       font-weight: 400 !important
     }
 
@@ -10798,12 +10815,15 @@
       font-weight: bolder !important
     }
 
-    .font-italic {
-      font-style: italic !important
+    .font-normal;
+
+    color:#fff {
+      font-style: normal;
+      color: #fff !important
     }
 
     .text-white {
-      color: #fff !important
+      color: #000 !important
     }
 
     .text-primary {
@@ -10991,7 +11011,7 @@
 
       .table td,
       .table th {
-        background-color: #fff !important
+        background-color: #000 !important
       }
 
       .table-bordered td,
@@ -11056,7 +11076,7 @@
 
     .form-control.focus {
       color: #495057;
-      background-color: #fff;
+      background-color: #000;
       border-color: #80bdff;
       outline: 0;
       box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
@@ -11133,8 +11153,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      -webkit-mask-image: radial-gradient(#fff, #000);
-      mask-image: radial-gradient(#fff, #000)
+      -webkit-mask-image: radial-gradient(#000, #000);
+      mask-image: radial-gradient(#000, #000)
     }
 
     .b-avatar .b-avatar-text {
@@ -11512,6 +11532,7 @@
       word-break: break-word;
       font-size: inherit;
       white-space: normal;
+      color: #fff;
       cursor: pointer
     }
 
@@ -11682,7 +11703,7 @@
 
     .input-group>.custom-range {
       padding: 0 .75rem;
-      background-color: #fff;
+      background-color: #000;
       background-clip: padding-box;
       border: 1px solid #ced4da;
       height: calc(1.5em + .75rem + 2px);
@@ -11698,7 +11719,7 @@
 
     .input-group>.custom-range:focus {
       color: #495057;
-      background-color: #fff;
+      background-color: #000;
       border-color: #80bdff;
       outline: 0;
       box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
@@ -11734,17 +11755,17 @@
 
     .custom-range.is-valid:focus::-webkit-slider-thumb,
     .was-validated .custom-range:valid:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem #9be7ac
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem #9be7ac
     }
 
     .custom-range.is-valid:focus::-moz-range-thumb,
     .was-validated .custom-range:valid:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem #9be7ac
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem #9be7ac
     }
 
     .custom-range.is-valid:focus::-ms-thumb,
     .was-validated .custom-range:valid:focus::-ms-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem #9be7ac
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem #9be7ac
     }
 
     .custom-range.is-valid::-webkit-slider-thumb,
@@ -11820,17 +11841,17 @@
 
     .custom-range.is-invalid:focus::-webkit-slider-thumb,
     .was-validated .custom-range:invalid:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem #f6cdd1
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem #f6cdd1
     }
 
     .custom-range.is-invalid:focus::-moz-range-thumb,
     .was-validated .custom-range:invalid:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem #f6cdd1
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem #f6cdd1
     }
 
     .custom-range.is-invalid:focus::-ms-thumb,
     .was-validated .custom-range:invalid:focus::-ms-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem #f6cdd1
+      box-shadow: 0 0 0 1px #000, 0 0 0 .2rem #f6cdd1
     }
 
     .custom-range.is-invalid::-webkit-slider-thumb,
@@ -12070,7 +12091,7 @@
 
     .b-form-tags.focus {
       color: #495057;
-      background-color: #fff;
+      background-color: #000;
       border-color: #80bdff;
       outline: 0;
       box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
@@ -12381,7 +12402,7 @@
     }
 
     .b-popover-warning.popover {
-      background-color: #fff3cd;
+      background-color: #0003cd;
       border-color: #ffeeba
     }
 
@@ -12392,7 +12413,7 @@
 
     .b-popover-warning.bs-popover-auto[x-placement^=top]>.arrow:after,
     .b-popover-warning.bs-popover-top>.arrow:after {
-      border-top-color: #fff3cd
+      border-top-color: #0003cd
     }
 
     .b-popover-warning.bs-popover-auto[x-placement^=right]>.arrow:before,
@@ -12402,7 +12423,7 @@
 
     .b-popover-warning.bs-popover-auto[x-placement^=right]>.arrow:after,
     .b-popover-warning.bs-popover-right>.arrow:after {
-      border-right-color: #fff3cd
+      border-right-color: #0003cd
     }
 
     .b-popover-warning.bs-popover-auto[x-placement^=bottom]>.arrow:before,
@@ -12424,7 +12445,7 @@
 
     .b-popover-warning.bs-popover-auto[x-placement^=left]>.arrow:after,
     .b-popover-warning.bs-popover-left>.arrow:after {
-      border-left-color: #fff3cd
+      border-left-color: #0003cd
     }
 
     .b-popover-warning .popover-header {
@@ -12716,8 +12737,8 @@
       overflow: hidden;
       background-color: rgba(0, 0, 0, .12);
       cursor: wait;
-      -webkit-mask-image: radial-gradient(#fff, #000);
-      mask-image: radial-gradient(#fff, #000)
+      -webkit-mask-image: radial-gradient(#000, #000);
+      mask-image: radial-gradient(#000, #000)
     }
 
     .b-skeleton:before {
@@ -12912,7 +12933,7 @@
 
     .table.b-table.table-hover.table-dark>tbody>tr.bg-active:hover td,
     .table.b-table.table-hover.table-dark>tbody>tr.bg-active:hover th {
-      color: #fff;
+      color: #000;
       background-image: linear-gradient(hsla(0, 0%, 100%, .075), hsla(0, 0%, 100%, .075));
       background-repeat: no-repeat
     }
@@ -12982,13 +13003,13 @@
       .table.b-table>tfoot>tr>.table-b-table-default,
       .table.b-table>thead>tr>.table-b-table-default {
         color: #212529;
-        background-color: #fff
+        background-color: #000
       }
 
       .table.b-table.table-dark>tbody>tr>.bg-b-table-default,
       .table.b-table.table-dark>tfoot>tr>.bg-b-table-default,
       .table.b-table.table-dark>thead>tr>.bg-b-table-default {
-        color: #fff;
+        color: #000;
         background-color: #343a40
       }
 
@@ -13009,7 +13030,7 @@
       }
 
       .table.b-table.table-hover.table-dark>tbody>tr:hover>.bg-b-table-default {
-        color: #fff;
+        color: #000;
         background-image: linear-gradient(hsla(0, 0%, 100%, .075), hsla(0, 0%, 100%, .075));
         background-repeat: no-repeat
       }
@@ -13141,6 +13162,7 @@
         word-wrap: break-word;
         font-weight: 700;
         font-style: normal;
+        color: #fff;
         padding: 0 .5rem 0 0;
         margin: 0
       }
@@ -13205,6 +13227,7 @@
         word-wrap: break-word;
         font-weight: 700;
         font-style: normal;
+        color: #fff;
         padding: 0 .5rem 0 0;
         margin: 0
       }
@@ -13269,6 +13292,7 @@
         word-wrap: break-word;
         font-weight: 700;
         font-style: normal;
+        color: #fff;
         padding: 0 .5rem 0 0;
         margin: 0
       }
@@ -13333,6 +13357,7 @@
         word-wrap: break-word;
         font-weight: 700;
         font-style: normal;
+        color: #fff;
         padding: 0 .5rem 0 0;
         margin: 0
       }
@@ -13396,6 +13421,7 @@
       word-wrap: break-word;
       font-weight: 700;
       font-style: normal;
+      color: #fff;
       padding: 0 .5rem 0 0;
       margin: 0
     }
@@ -13480,7 +13506,7 @@
     }
 
     .b-toast.b-toast-solid .toast {
-      background-color: #fff
+      background-color: #000
     }
 
     .b-toast .toast {
@@ -13572,7 +13598,7 @@
     }
 
     .b-toast-warning.b-toast-solid .toast {
-      background-color: #fff9e7
+      background-color: #0009e7
     }
 
     .b-toast-danger .toast {
@@ -13604,7 +13630,7 @@
     }
 
     .b-toast-light.b-toast-solid .toast {
-      background-color: #fff
+      background-color: #000
     }
 
     .b-toast-dark .toast {
@@ -13827,7 +13853,7 @@
     }
 
     .tooltip.b-tooltip-primary .tooltip-inner {
-      color: #fff;
+      color: #000;
       background-color: #007bff
     }
 
@@ -13852,7 +13878,7 @@
     }
 
     .tooltip.b-tooltip-secondary .tooltip-inner {
-      color: #fff;
+      color: #000;
       background-color: #6c757d
     }
 
@@ -13877,7 +13903,7 @@
     }
 
     .tooltip.b-tooltip-success .tooltip-inner {
-      color: #fff;
+      color: #000;
       background-color: #28a745
     }
 
@@ -13902,7 +13928,7 @@
     }
 
     .tooltip.b-tooltip-info .tooltip-inner {
-      color: #fff;
+      color: #000;
       background-color: #17a2b8
     }
 
@@ -13952,7 +13978,7 @@
     }
 
     .tooltip.b-tooltip-danger .tooltip-inner {
-      color: #fff;
+      color: #000;
       background-color: #dc3545
     }
 
@@ -14002,7 +14028,7 @@
     }
 
     .tooltip.b-tooltip-dark .tooltip-inner {
-      color: #fff;
+      color: #000;
       background-color: #343a40
     }
 
@@ -14064,7 +14090,9 @@
     .b-icon.b-iconstack .b-icon-animation-spin>g {
       transform-origin: center;
       -webkit-animation: b-icon-animation-spin 2s linear infinite normal;
-      animation: b-icon-animation-spin 2s linear infinite normal
+      color: #fff;
+      animation: b-icon-animation-spin 2s linear infinite normal;
+      color: #fff
     }
 
     @media (prefers-reduced-motion:reduce) {
@@ -14095,7 +14123,9 @@
     .b-icon.b-iconstack .b-icon-animation-spin-pulse>g {
       transform-origin: center;
       -webkit-animation: b-icon-animation-spin 1s steps(8) infinite normal;
-      animation: b-icon-animation-spin 1s steps(8) infinite normal
+      color: #fff;
+      animation: b-icon-animation-spin 1s steps(8) infinite normal;
+      color: #fff
     }
 
     @media (prefers-reduced-motion:reduce) {
@@ -14286,6 +14316,7 @@
       font-display: swap;
       font-family: "DoubleFeature";
       font-style: normal;
+      color: #fff;
       font-weight: 400;
       src: local("~/assets/fonts/DoubleFeature/400.ttf"), url(/_nuxt/fonts/400.1498480.ttf) format("truetype")
     }
@@ -14294,6 +14325,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 100;
       src: local("~/assets/fonts/Jost/100.ttf"), url(/_nuxt/fonts/100.a4938e4.ttf) format("truetype")
     }
@@ -14302,6 +14334,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 200;
       src: local("~/assets/fonts/Jost/200.ttf"), url(/_nuxt/fonts/200.4103685.ttf) format("truetype")
     }
@@ -14310,6 +14343,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 300;
       src: local("~/assets/fonts/Jost/300.ttf"), url(/_nuxt/fonts/300.5aad24e.ttf) format("truetype")
     }
@@ -14318,6 +14352,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 400;
       src: local("~/assets/fonts/Jost/400.ttf"), url(/_nuxt/fonts/400.d4084cb.ttf) format("truetype")
     }
@@ -14326,6 +14361,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 500;
       src: local("~/assets/fonts/Jost/500.ttf"), url(/_nuxt/fonts/500.49273d8.ttf) format("truetype")
     }
@@ -14334,6 +14370,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 600;
       src: local("~/assets/fonts/Jost/600.ttf"), url(/_nuxt/fonts/600.2341b2a.ttf) format("truetype")
     }
@@ -14342,6 +14379,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 700;
       src: local("~/assets/fonts/Jost/700.ttf"), url(/_nuxt/fonts/700.3aac697.ttf) format("truetype")
     }
@@ -14350,6 +14388,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 800;
       src: local("~/assets/fonts/Jost/800.ttf"), url(/_nuxt/fonts/800.60ffb11.ttf) format("truetype")
     }
@@ -14358,6 +14397,7 @@
       font-display: swap;
       font-family: "Jost";
       font-style: normal;
+      color: #fff;
       font-weight: 900;
       src: local("~/assets/fonts/Jost/900.ttf"), url(/_nuxt/fonts/900.e8413db.ttf) format("truetype")
     }
@@ -14365,7 +14405,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 100;
       src: local("~/assets/fonts/Jost/100.ttf"), url(/_nuxt/fonts/100.a4938e4.ttf) format("truetype")
     }
@@ -14373,7 +14414,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 200;
       src: local("~/assets/fonts/Jost/200.ttf"), url(/_nuxt/fonts/200.4103685.ttf) format("truetype")
     }
@@ -14381,7 +14423,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 300;
       src: local("~/assets/fonts/Jost/300.ttf"), url(/_nuxt/fonts/300.5aad24e.ttf) format("truetype")
     }
@@ -14389,7 +14432,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 400;
       src: local("~/assets/fonts/Jost/400.ttf"), url(/_nuxt/fonts/400.d4084cb.ttf) format("truetype")
     }
@@ -14397,7 +14441,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 500;
       src: local("~/assets/fonts/Jost/500.ttf"), url(/_nuxt/fonts/500.49273d8.ttf) format("truetype")
     }
@@ -14405,7 +14450,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 600;
       src: local("~/assets/fonts/Jost/600.ttf"), url(/_nuxt/fonts/600.2341b2a.ttf) format("truetype")
     }
@@ -14413,7 +14459,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 700;
       src: local("~/assets/fonts/Jost/700.ttf"), url(/_nuxt/fonts/700.3aac697.ttf) format("truetype")
     }
@@ -14421,7 +14468,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 800;
       src: local("~/assets/fonts/Jost/800.ttf"), url(/_nuxt/fonts/800.60ffb11.ttf) format("truetype")
     }
@@ -14429,7 +14477,8 @@
     @font-face {
       font-display: swap;
       font-family: "Jost";
-      font-style: italic;
+      font-style: normal;
+      color: #fff;
       font-weight: 900;
       src: local("~/assets/fonts/Jost/900.ttf"), url(/_nuxt/fonts/900.e8413db.ttf) format("truetype")
     }
@@ -14469,7 +14518,7 @@
       border: none;
       font-size: 21px;
       border-radius: 50px;
-      color: #fff;
+      color: #000;
       background-color: #000;
       text-transform: uppercase;
       padding: 20px 40px
@@ -14787,7 +14836,8 @@
 
     @media screen and (max-width:576px) {
       .Intro .Content .Text[data-v-73f0e908] {
-        line-height: normal
+        line-height: normal;
+        color: #fff
       }
     }
 
@@ -15067,7 +15117,7 @@
       margin-top: 200px;
       background-size: cover;
       background-repeat: no-repeat;
-      background-color: #fff;
+      background-color: #000;
       background-position: 100% 100%;
       background-image: url(/_nuxt/img/storyBg.63a62bc.jpg);
       padding: 120px 0 80px
@@ -15186,7 +15236,8 @@
 
     @media screen and (max-width:576px) {
       .OurStory .Content .Text[data-v-48596e83] {
-        line-height: normal
+        line-height: normal;
+        color: #fff
       }
     }
 
@@ -15232,7 +15283,7 @@
       position: relative;
       background-size: 100% auto;
       background-repeat: no-repeat;
-      background-color: #fff;
+      background-color: #000;
       background-position: top;
       background-image: url(/_nuxt/img/roadmapBg.d28820c.jpg);
       padding-top: 80px
@@ -15356,6 +15407,8 @@
       font-weight: 900;
       position: relative;
       line-height: normal;
+      color: #fff;
+      color: '#fff';
       text-transform: uppercase;
       font-size: 26px
     }
@@ -15377,8 +15430,9 @@
       content: "";
       position: absolute;
       border-radius: 20px;
-      background-color: #fff;
+      background-color: #000;
       border: 10px solid #000;
+      color: '#fff';
       transform: translateY(-50%);
       left: -75px;
       width: 40px;
@@ -15411,7 +15465,8 @@
 
     @media screen and (max-width:576px) {
       .RoadMap .Content .Steps .Step .StepText[data-v-54fceed6] {
-        line-height: normal
+        line-height: normal;
+        color: #fff
       }
     }
 
@@ -15566,7 +15621,8 @@
 
     @media screen and (max-width:576px) {
       .RoadMap .Content .Steps .Step.Small .StepTitle[data-v-54fceed6] {
-        line-height: normal
+        line-height: normal;
+        color: #fff
       }
     }
 
@@ -15753,7 +15809,7 @@
       position: relative;
       background-size: cover;
       background-repeat: no-repeat;
-      background-color: #fff;
+      background-color: #000;
       background-position: 100% 100%;
       background-image: url(/_nuxt/img/devBg.0c77ba6.jpg);
       padding: 140px 0 120px
@@ -15871,7 +15927,8 @@
 
     @media screen and (max-width:576px) {
       .Dev .Content .Text[data-v-17dca041] {
-        line-height: normal
+        line-height: normal;
+        color: #fff
       }
     }
 
@@ -16029,7 +16086,7 @@
       position: relative;
       background-size: cover;
       background-repeat: repeat-y;
-      background-color: #fff;
+      background-color: #000;
       background-position: top;
       background-image: url(/_nuxt/img/faqBg.13da073.jpg);
       padding: 80px 0
@@ -16081,6 +16138,7 @@
       .Faq .Content .List .Item .Question[data-v-8f97e78e] {
         padding: 16px 30px 16px 0;
         line-height: normal;
+        color: #fff;
         font-size: 16px
       }
     }
@@ -16140,7 +16198,7 @@
     }
 
     .Footer {
-      background-color: #fff;
+      background-color: #000;
       padding: 60px 0
     }
 
@@ -16414,7 +16472,7 @@
       display: block;
       border: 4px solid;
       border-radius: 40px;
-      background-color: #fff;
+      background-color: #000;
       right: -10px;
       bottom: -10px;
       position: absolute
@@ -16492,166 +16550,223 @@
         <div data-v-73f0e908="" data-v-d18504f8="" id="Intro" class="Intro">
           <div data-v-73f0e908="">
             <header class="Header">
-              <div class="Content"><a href="/"><img src="https://www.toxicskullsclub.io/_nuxt/img/logo.7bc81c1.png" alt="Scanty Lions Club"
+              <div class="Content"><a href="/"><img src="../images/scantyverse.png" alt="Scanty Lions Club"
                     class="Logo"></a> <button type="button" aria-label="Toggle navigation"
                   class="navbar-toggler Toggle collapsed" aria-expanded="false" aria-controls="nav-collapse"><i
                     class="fas fa-bars"></i></button>
-                <div class="Links"><span><span class="Link"  style="font-family: cursive;">About</span> <span class="Link  style="font-family: cursive;"">Roadmap</span> <span
-                      class="Link  style="font-family: cursive;"">Artist</span> <span class="Link"  style="font-family: cursive;">Team</span> <span class="Link"  style="font-family: cursive;">FAQ</span></span>
+                <div class="Links"><span>
+<a href="https://medium.com/@Scantyverse">
+  <span class="Link" style="font-family: normal;color:#fff;"
+                      style="color:#fff">Medium</span>
+</a>
+                
+                      
+                    <a href="https://twitter.com/Scantyverse">
+                      <span class="Link"
+                      style="font-family: normal;color:#fff;">Twitter</span> 
+                    </a>  
+                      
+<a href="https://t.me/scantyverse">
+                       <span class="Link"
+                      style="font-family: normal;color:#fff;">Telegram</span> 
+                    </a>
+                    <a href="v">
+
+                
+                      <span class="Link"
+                      style="font-family: normal;color:#fff;">Instagram</span>
+                    </a>
+                    </span>
                 </div>
-                <div class="Buttons"><a href="https://www.instagram.com/toxicskullsclub/" target="_blank"><button
+                <div class="Buttons"><a href="https://www.instagram.com/scantyverse/" target="_blank"><button
                       class="Icon LeakLeft"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAABHNCSVQICAgIfAhkiAAAAxFJREFUSEullluIjkEYx72OSbK1NqfEohTKFjnd7IULF6TWOifSZq/Yi2XdiKxyQdbN5oKVyCmbU20pNxQuJJIcIonddstpV+whcvj8/l8zX8++3m99831T/+Z5Z57n/5+Zd+aZiQaZkkql5vBZDcrBZDDU9udo/8avA9wFJ6MoeuTjIm8gtBv7UI6EIW71CO5XQFoMoVqqBsPQjv0M/ACDA5hT+A4Ds8AUE5cWjBCaQeNr07ED+zidPwNE+rnCqUlUgSbTUSaxEzRsc401iDTmKxKPg3szbWdce7PE3vAxDbQjpE2Rd4FrDcHzwVG4PoiItpdUM9P8fPRhjATXcaj4nxL+c/EpBl/AE2L+ONIS6o8u/grtq127ZqYZ9kmsB2PUQGL4DKG/HmwEpWZAbdjNYC/k3/F7jq3NsZ3vY07sLPUm0CuxbxijQQsOK+Mzo38ibbfcUmSbeCsd5cS34l9K/dY78n0BewPoHlAMR237d8D/y6/Yl4DI1LYWjHXEnYh4OzOoELEDWiIXeY+6AsLPZtRjnPgy19ZIf42dfk5ibladBBYBLXUxRL+S1hFfbQxtECWBIv2/oGWEoIyAx9lGHBu9XYGFiD0IFVtBQIsLqobAZoN+E2Rg2gDaCCrL8b0RKjaPgIcuSId0Z9ISqg2xfVQ6GiqL8b0fKqbrpQvoWHRBoIOcWBDTlaIjonyqf6ZEkS45bRDneJi6zsXdpK6EqNcQDce+CFa5tib6dR9mSoiYyHTdaKepvAfngDLHJKCM4s+gBjEBse68xNzsplPfNqSWy9ufMJYi9DTeGZ9ZLrlRufMgWAfGG0Id8MtgD0L6v/8UxHxu7LFZ/xoBfu2T4vSzR9Chd4oyhw76C7sZsoidpn0LSGd95bmpoI1Ae5UnCoY2mpugQ2JeWTxVCJ4KJczmD3elW2a5XJWY7h/dQ75sRVADKKjAux6C88A/mBb415Uyu/KbL68wtLMKeV3NNnxHmECdfTfaZFrQrGLBDQjtUltGTB9MfRGVMsASMA7oORBa9CLWuVN+1Iv4jif4C91AkKSWVq/XAAAAAElFTkSuQmCC"
-                        alt="Instagram"></button></a> <a href="https://twitter.com/toxicskullsclub"
+                        alt="Instagram"></button></a> <a href="https://twitter.com/Scantyverse"
                     target="_blank"><button class="Icon LeakLeft"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAABHNCSVQICAgIfAhkiAAAAmtJREFUSEu1ll0oX2Ecx3e87KWmRG2tZJZdLK2w2gU3u9puJrG2hpUsbROScjGS3LG5syFK5E5balq5EcqFCyWyl1JWNMprSBIt/31+ep7TcZzz/5+T8z/17Xn7/n6f5+3vYVwK6AuFQtmkeoxuoW00bhjGlD09vlhDOqlcp4jHtON3DsReI6YPFTnEjtD3mrwb+BKo16EEDS2l0YbuYdj1CibRVbw/0N0wMeuMTaIXypOmoZ/pqEZLKAfwmhcw0C+WZJFCtjAUo10N/U4jT0XtSSLAo+GyAExnfDESSY2HKH8jOcZjDXWacSeGBuD7TomBNtDf4hGqbStUMjT0HY1uhwSy6g7UD/yPdRxoK+16H9BJcjwSv4bGyl6r5bvlmWBgDP1Ev1AZavQBbQP6/hTKjGNonFAmq2Q3PSY6xnfZo1ds7XBqTSiVHjSL7qO3SFYe9Cf344N1ewdpvFSUE8qYoImSH6hcWPNMH1CfiQLImjIF6KoJlQpn2ktRHiXwPMBMnfv09uoP8BD1Z1EA1wP96AhVKy6krEHymzozqQtMJsn6mNhX+pzEJegGygnoQnUBrLJO2A5NYfDvBVZkDz2iIxnogStUba88xtMoLgB4AcBhex7HM+NC3cH4CemXR14Jv+d7bltdL5J9VkxA3tpKn+c7zAoL3HbKdfbAbhNUgd7IufjY6gGAZeH88gc/Q93WTcpElIXy0RMfIG2tBdgeKU6gDzE1o6eRzGHGvzLWBHDBSw5ze4HnEvBKXZ5UD8FLeL4h2c45D37Tcu5MgcczKg+A/HTkXGXLr6BDJP+iLiN5BueA/fMD097/VDDA0ogcpsQAAAAASUVORK5CYII="
-                        alt="Twitter"></button></a> <a href="https://discord.gg/toxic-skulls-club"
-                    target="_blank"><button class="Discord LeakLeft LeakRight">Join Discord</button></a></div>
+                        alt="Twitter"></button></a> <a href="https://discord.gg/3sKdmmDvwD"
+                    target="_blank"><button class="Discord LeakLeft LeakRight" style="color:#fff">Join
+                      Discord</button></a></div>
               </div>
               <div id="nav-collapse" class="Menu navbar-collapse collapse" style="display: none;">
-                <div class="MobileLinks"><span><span class="Link">About</span> <span class="Link " style="font-family: cursive;"  style="font-family: cursive;">Roadmap</span> <span
-                      class="Link">Artist</span> <span class="Link">Team</span> <span class="Link" style="font-family: cursive;">FAQ</span></span>
+                <div class="MobileLinks"><span><a href="https://medium.com/@Scantyverse"><span class="Link" style="color:#fff">Medium</span></a>
+                  <a href="https://twitter.com/Scantyverse"> <span class="Link "
+                      style="font-family: normal;color:#fff;" style="font-family: normal;color:#fff;">Twitter</span>
+                    </a>
+                   <a href="https://discord.gg/3sKdmmDvwD"><span class="Link" style="color:#fff">Discord</span></a> 
+                  <a href="https://t.me/scantyverse">   <span class="Link"
+                      style="color:#fff">Twitter Announcements</span></a>
+
+                      <a href="https://t.me/scantyversecom">   <span class="Link"
+                        style="color:#fff">Twitter Discussions</span></a>
+                     <a href="https://www.instagram.com/scantyverse/">  <span class="Link"
+                      style="font-family: normal;color:#fff;">Instagram</span>
+                    </a>
+                    </span>
                 </div>
-                <div class="MobileButtons"><a href="https://www.instagram.com/toxicskullsclub/" target="_blank"><button
+                <div class="MobileButtons"><a href="https://www.instagram.com/scantyverse/" target="_blank"><button
                       class="Icon LeakLeft"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAABHNCSVQICAgIfAhkiAAAAxFJREFUSEullluIjkEYx72OSbK1NqfEohTKFjnd7IULF6TWOifSZq/Yi2XdiKxyQdbN5oKVyCmbU20pNxQuJJIcIonddstpV+whcvj8/l8zX8++3m99831T/+Z5Z57n/5+Zd+aZiQaZkkql5vBZDcrBZDDU9udo/8avA9wFJ6MoeuTjIm8gtBv7UI6EIW71CO5XQFoMoVqqBsPQjv0M/ACDA5hT+A4Ds8AUE5cWjBCaQeNr07ED+zidPwNE+rnCqUlUgSbTUSaxEzRsc401iDTmKxKPg3szbWdce7PE3vAxDbQjpE2Rd4FrDcHzwVG4PoiItpdUM9P8fPRhjATXcaj4nxL+c/EpBl/AE2L+ONIS6o8u/grtq127ZqYZ9kmsB2PUQGL4DKG/HmwEpWZAbdjNYC/k3/F7jq3NsZ3vY07sLPUm0CuxbxijQQsOK+Mzo38ibbfcUmSbeCsd5cS34l9K/dY78n0BewPoHlAMR237d8D/y6/Yl4DI1LYWjHXEnYh4OzOoELEDWiIXeY+6AsLPZtRjnPgy19ZIf42dfk5ibladBBYBLXUxRL+S1hFfbQxtECWBIv2/oGWEoIyAx9lGHBu9XYGFiD0IFVtBQIsLqobAZoN+E2Rg2gDaCCrL8b0RKjaPgIcuSId0Z9ISqg2xfVQ6GiqL8b0fKqbrpQvoWHRBoIOcWBDTlaIjonyqf6ZEkS45bRDneJi6zsXdpK6EqNcQDce+CFa5tib6dR9mSoiYyHTdaKepvAfngDLHJKCM4s+gBjEBse68xNzsplPfNqSWy9ufMJYi9DTeGZ9ZLrlRufMgWAfGG0Id8MtgD0L6v/8UxHxu7LFZ/xoBfu2T4vSzR9Chd4oyhw76C7sZsoidpn0LSGd95bmpoI1Ae5UnCoY2mpugQ2JeWTxVCJ4KJczmD3elW2a5XJWY7h/dQ75sRVADKKjAux6C88A/mBb415Uyu/KbL68wtLMKeV3NNnxHmECdfTfaZFrQrGLBDQjtUltGTB9MfRGVMsASMA7oORBa9CLWuVN+1Iv4jif4C91AkKSWVq/XAAAAAElFTkSuQmCC"
-                        alt="Instagram"></button></a> <a href="https://twitter.com/toxicskullsclub"
+                        alt="Instagram"></button></a> <a href="https://twitter.com/Scantyverse"
                     target="_blank"><button class="Icon LeakLeft"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAABHNCSVQICAgIfAhkiAAAAmtJREFUSEu1ll0oX2Ecx3e87KWmRG2tZJZdLK2w2gU3u9puJrG2hpUsbROScjGS3LG5syFK5E5balq5EcqFCyWyl1JWNMprSBIt/31+ep7TcZzz/5+T8z/17Xn7/n6f5+3vYVwK6AuFQtmkeoxuoW00bhjGlD09vlhDOqlcp4jHtON3DsReI6YPFTnEjtD3mrwb+BKo16EEDS2l0YbuYdj1CibRVbw/0N0wMeuMTaIXypOmoZ/pqEZLKAfwmhcw0C+WZJFCtjAUo10N/U4jT0XtSSLAo+GyAExnfDESSY2HKH8jOcZjDXWacSeGBuD7TomBNtDf4hGqbStUMjT0HY1uhwSy6g7UD/yPdRxoK+16H9BJcjwSv4bGyl6r5bvlmWBgDP1Ev1AZavQBbQP6/hTKjGNonFAmq2Q3PSY6xnfZo1ds7XBqTSiVHjSL7qO3SFYe9Cf344N1ewdpvFSUE8qYoImSH6hcWPNMH1CfiQLImjIF6KoJlQpn2ktRHiXwPMBMnfv09uoP8BD1Z1EA1wP96AhVKy6krEHymzozqQtMJsn6mNhX+pzEJegGygnoQnUBrLJO2A5NYfDvBVZkDz2iIxnogStUba88xtMoLgB4AcBhex7HM+NC3cH4CemXR14Jv+d7bltdL5J9VkxA3tpKn+c7zAoL3HbKdfbAbhNUgd7IufjY6gGAZeH88gc/Q93WTcpElIXy0RMfIG2tBdgeKU6gDzE1o6eRzGHGvzLWBHDBSw5ze4HnEvBKXZ5UD8FLeL4h2c45D37Tcu5MgcczKg+A/HTkXGXLr6BDJP+iLiN5BueA/fMD097/VDDA0ogcpsQAAAAASUVORK5CYII="
-                        alt="Twitter"></button></a> <a href="https://discord.gg/toxic-skulls-club"
-                    target="_blank"><button class="Discord LeakLeft LeakRight"  style="font-family: cursive;">Join Discord</button></a></div>
+                        alt="Twitter"></button></a> <a href="https://discord.gg/3sKdmmDvwD"
+                    target="_blank"><button class="Discord LeakLeft LeakRight"
+                      style="font-family: normal;color:#fff;">Join Discord</button></a></div>
               </div>
             </header>
           </div>
           <div data-v-73f0e908="" class="Content" style="margin-top: 100px;">
-            <div data-v-73f0e908="" class="Filter"><img data-v-73f0e908="" style="width: 800px;height:800px" src="https://pbs.twimg.com/media/FMZIaMWVcAoRKVY?format=jpg&name=small">
+            <div data-v-73f0e908="" class="Filter"><img data-v-73f0e908="" style="width: 800px;height:800px"
+                src="../images/scantyverse.png">
             </div>
             <div data-v-73f0e908="" class="IntroContent">
-              <div data-v-73f0e908="" class="Title"><span data-v-73f0e908="" style="font-family: cursive;">Welcome to<br> the Scantyverse</span><span data-v-73f0e908=""></span></div>
+              <div data-v-73f0e908="" class="Title"><span data-v-73f0e908=""
+                  style="font-family: normal;color:#fff;color:#fff">Welcome to<br> the Scantyverse</span><span
+                  data-v-73f0e908=""></span></div>
               <div data-v-73f0e908="" class="Text" style="margin-left: -50px;">
-                <div data-v-73f0e908="" style="font-family: cursive;">
-                  Scanty Lions 4444 🦁 are the first batch NFT collection from Scantyverse, which rewards holders  gain access to IRL events and access to scantyverse.
+                <div data-v-73f0e908="" style="font-family: normal;color:#fff;color:#fff">
+                  Scanty Lions 4444 🦁 are the first batch NFT collection from Scantyverse, which rewards holders gain
+                  access to IRL events and access to scantyverse.
                 </div>
-                <div data-v-73f0e908="" class="Buttons"><a data-v-73f0e908=""
-                    href="https://discord.gg/toxic-skulls-club" target="_blank"><button data-v-73f0e908=""
-                      class="LeakLeft LeakRight"  style="font-family: cursive;">Join Discord</button></a></div>
+                <div data-v-73f0e908="" class="Buttons" style=""><a data-v-73f0e908=""
+                    href="https://discord.gg/3sKdmmDvwD" target="_blank"><button data-v-73f0e908=""
+                      class="LeakLeft LeakRight" style="font-family: normal;color:#fff;color:#fff">Join
+                      Discord</button></a></div>
               </div>
             </div>
           </div>
         </div>
         <div data-v-48596e83="" data-v-d18504f8="" id="OurStory" class="OurStory">
-          <div data-v-48596e83="" class="Content" style="justify-content: center;">
-            <div data-v-48596e83="" class="Filter">
-              <img data-v-48596e83="" src="../images/banner2.jpeg" >
-            </div>
-            <div data-v-48596e83="" class="SectionTitle"  style="font-family: cursive;">About Scantyverse</div>
-            <div data-v-48596e83="" class="Text" style="margin-top: -50px;font-family: cursive;font-size: 22px;">
-              In a faraway land Lions,tigers ,leopards,cheetahs were roaming the forest Scantyverse!
-              <br>
 
-              Scantyverse is Divided In 4 Batches Of NFTs.
-              Total Scantyverse is the Collection of 22220 NFTs.
-              <br>
-              
-              1st Batch is Scanty Lions      4444<br>
-              2nd batch is Scanty Tigers     4444<br>
-              3rd Batch is Scanty Leopards   6666<br>
-              4th Batch is Scanty Cheetahs   6666<br><br><br><br>
-          </div>
-        </div>
-        <div data-v-54fceed6="" data-v-d18504f8="" id="Roadmap" class="RoadMap">
-          <div data-v-54fceed6="" class="Content">
-            <div data-v-54fceed6="" class="SectionTitle" style="font-family: cursive">Roadmap</div>
-            <div data-v-54fceed6="" class="Text" style="font-family: cursive">
-              Our goal is to bring long term value to every Scantyverse member that owns a SCANTY NFT.
-              To do so, we will implement several strategies after the launch.
-            </div>
-            <div data-v-54fceed6="" class="Steps">
-              <div data-v-54fceed6="" class="Step Skull Underline">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive"><span data-v-54fceed6="">Pre-Mint</span></div>
-              </div>
-              <div data-v-54fceed6="" class="Step Small">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">
-                  Aggressive marketing to increase exposure and demand for Scantyverse
-                </div>
-              </div>
-              <div data-v-54fceed6="" class="Step Small">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">NFT + Whitelist Giveaways</div>
-              </div>
-              <div data-v-54fceed6="" class="Step Small">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">
-                  Exclusive Pre-Sale Discount for Whitelisted Members only
-                </div>
-              </div>
-              <div data-v-54fceed6="" class="Step"></div>
-              <div data-v-54fceed6="" class="Step Skull Underline">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive"><span data-v-54fceed6="">Post-Mint</span></div>
-              </div>
-              <div data-v-54fceed6="" class="Step">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">50ETH / 1,50,000 USDT GIVEAWAY</div>
-                <div data-v-54fceed6="" class="StepText" style="font-family: cursive">
-                  Mint atleast 1 NFT and you will be entered to win this giveaway. The winner will
-                  be announced after we sell out of our 4444 NFT’s!
-                </div>
-              </div>
-              <div data-v-54fceed6="" class="Step">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">Intellectual Property</div>
-                <div data-v-54fceed6="" class="StepText" style="font-family: cursive">
-                  Each holder is given ownership and commercial usage rights of their
-                  NFT(s).
-                </div>
-              </div>
-              <div data-v-54fceed6="" class="Step">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">Free Trips for community</div>
-                <div data-v-54fceed6="" class="StepText" style="font-family: cursive">
-                  4 Random holders will get free exclusive Holiday tour  to Jungle Safari In Africa
-                </div>
-              </div>
-              <div data-v-54fceed6="" class="Step">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">Community Fund</div>
-                <div data-v-54fceed6="" class="StepText" style="font-family: cursive">
-                  100 Ethereum Will be added to the scantyverse liquidity pool i,e community Fund.
-                  We will allocate 50% of royalties to a community fund for marketing expenses, future giveaways, drops, events, Metaverse developments etc… Owners of Scanty Lions NFTs will get together and vote on how we should spend this money.
-                </div>
-              </div>
-              <div data-v-54fceed6="" class="Step">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">        Partnerships and collaborations</div>
-             
-              </div>
-            
-              <div data-v-54fceed6="" class="Step">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">Merch</div>
-                <div data-v-54fceed6="" class="StepText" style="font-family: cursive">
-                  A clothing line inspired by the Scantyverse is already in the works, designed by various artists.
-                </div>
-              </div>
-              <div data-v-54fceed6="" class="Step">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">Events</div>
-                <div data-v-54fceed6="" class="StepText" style="font-family: cursive">
-                  In person events for exclusive Scanty Lions Club members only.
-                  Parties and masterminds will be organized with influential people
-                  related to crypto, NFTs, investing, real estate in popular locations
-                  such as Miami, NYC, Las Vegas, Los Angeles. Scanty Members will be
-                  able to vote on upcoming events.
-                </div>
-              </div>
 
-              <div data-v-54fceed6="" class="Step">
-                <div data-v-54fceed6="" class="StepTitle" style="font-family: cursive">Metaverse</div>
-                <div data-v-54fceed6="" class="StepText" style="font-family: cursive">
-                  The Scantyverse will be extended to the Nftworlds,Sandbox Metaverse, 
-                  where the founders will buy a land once the Scanty Lions 4444 Collection is sold out.
-                   This would allow us to advertise our Scanty logo on Sandbox and Nftworlds and link to Opensea, which would bring more attention to the project.
-                   This land will be our HEADQUARTERS, where all the Scanty Holders can meet.
-                </div>
+          <div data-v-54fceed6="" data-v-d18504f8="" id="Roadmap" class="RoadMap">
+            <div data-v-54fceed6="" class="Content">
+              <div data-v-54fceed6="" class="SectionTitle" style="font-family: normal;color:#fff;color:#fff">About
+                Scantyverse</div>
+              <div data-v-54fceed6="" class="Text" style="font-family: normal;color:#fff;color:#fff">
+                <center>
+                  <br>
+
+                  Scantyverse is Divided In 4 Batches Of NFTs.
+                  Total Scantyverse is the Collection of 22220 NFTs.
+                  <br><br><br>
+
+                  1st Batch is Scanty Lions 4444<br><br><br>
+                  2nd batch is Scanty Tigers 4444<br><br><br>
+                  3rd Batch is Scanty Leopards 6666<br><br><br>
+                  4th Batch is Scanty Cheetahs 6666<br><br><br><br>
+                </center>
+
               </div>
-            
             </div>
           </div>
-          <div data-v-54fceed6="" class="Filter"><img data-v-54fceed6="" src="../images/banner1.jpeg">
+
+
+          <div data-v-54fceed6="" data-v-d18504f8="" id="Roadmap" class="RoadMap">
+            <div data-v-54fceed6="" class="Content">
+              <div data-v-54fceed6="" class="SectionTitle" style="font-family: normal;color:#fff;color:#fff">Roadmap
+              </div>
+              <div data-v-54fceed6="" class="Text" style="font-family: normal;color:#fff;color:#fff">
+                Our goal is to bring long term value to every Scantyverse member that owns a SCANTY NFT.
+                To do so, we will implement several strategies after the launch.
+              </div>
+              <div data-v-54fceed6="" class="Steps">
+                <div data-v-54fceed6="" class="Step Skull Underline">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff;color:#fff"><span
+                      data-v-54fceed6="">Pre-Mint</span></div>
+                </div>
+                <div data-v-54fceed6="" class="Step Small">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff;color:#fff">
+                    Aggressive marketing to increase exposure and demand for Scantyverse
+                  </div>
+                </div>
+                <div data-v-54fceed6="" class="Step Small">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff;color:#fff">NFT +
+                    Whitelist Giveaways</div>
+                </div>
+                <div data-v-54fceed6="" class="Step Small">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff">
+                    Exclusive Pre-Sale Discount for Whitelisted Members only
+                  </div>
+                </div>
+                <div data-v-54fceed6="" class="Step"></div>
+                <div data-v-54fceed6="" class="Step Skull Underline">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff"><span
+                      data-v-54fceed6="">Post-Mint</span></div>
+                </div>
+                <div data-v-54fceed6="" class="Step">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff">50ETH / 1,50,000 USDT
+                    GIVEAWAY</div>
+                  <div data-v-54fceed6="" class="StepText" style="font-family: normal;color:#fff">
+                    Mint atleast 1 NFT and you will be entered to win this giveaway. The winner will
+                    be announced after we sell out of our 4444 NFT’s!
+                  </div>
+                </div>
+                <div data-v-54fceed6="" class="Step">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff">Intellectual Property
+                  </div>
+                  <div data-v-54fceed6="" class="StepText" style="font-family: normal;color:#fff">
+                    Each holder is given ownership and commercial usage rights of their
+                    NFT(s).
+                  </div>
+                </div>
+                <div data-v-54fceed6="" class="Step">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff">Free Trips for
+                    community</div>
+                  <div data-v-54fceed6="" class="StepText" style="font-family: normal;color:#fff">
+                    4 Random holders will get free exclusive Holiday tour to Jungle Safari In Africa
+                  </div>
+                </div>
+                <div data-v-54fceed6="" class="Step">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff">Community Fund</div>
+                  <div data-v-54fceed6="" class="StepText" style="font-family: normal;color:#fff">
+                    100 Ethereum Will be added to the scantyverse liquidity pool i,e community Fund.
+                    We will allocate 50% of royalties to a community fund for marketing expenses, future giveaways,
+                    drops, events, Metaverse developments etc… Owners of Scanty Lions NFTs will get together and vote on
+                    how we should spend this money.
+                  </div>
+                </div>
+                <div data-v-54fceed6="" class="Step">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff"> Partnerships and
+                    collaborations</div>
+
+                </div>
+
+                <div data-v-54fceed6="" class="Step">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff">Merch</div>
+                  <div data-v-54fceed6="" class="StepText" style="font-family: normal;color:#fff">
+                    A clothing line inspired by the Scantyverse is already in the works, designed by various artists.
+                  </div>
+                </div>
+                <div data-v-54fceed6="" class="Step">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff">Events</div>
+                  <div data-v-54fceed6="" class="StepText" style="font-family: normal;color:#fff">
+                    In person events for exclusive Scanty Lions Club members only.
+                    Parties and masterminds will be organized with influential people
+                    related to crypto, NFTs, investing, real estate in popular locations
+                    such as Miami, NYC, Las Vegas, Los Angeles. Scanty Members will be
+                    able to vote on upcoming events.
+                  </div>
+                </div>
+
+                <div data-v-54fceed6="" class="Step">
+                  <div data-v-54fceed6="" class="StepTitle" style="font-family: normal;color:#fff">Metaverse</div>
+                  <div data-v-54fceed6="" class="StepText" style="font-family: normal;color:#fff">
+                    The Scantyverse will be extended to the Nftworlds,Sandbox Metaverse,
+                    where the founders will buy a land once the Scanty Lions 4444 Collection is sold out.
+                    This would allow us to advertise our Scanty logo on Sandbox and Nftworlds and link to Opensea, which
+                    would bring more attention to the project.
+                    This land will be our HEADQUARTERS, where all the Scanty Holders can meet.
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div data-v-54fceed6="" class="Filter"><img data-v-54fceed6="" src="../images/bw1.png">
+            </div>
           </div>
-        </div>
-        <!-- <div data-v-2d007e3c="" data-v-d18504f8="" id="Artist" class="Artist">
+          <!-- <div data-v-2d007e3c="" data-v-d18504f8="" id="Artist" class="Artist">
           <div data-v-2d007e3c="" class="Content">
             <div data-v-2d007e3c="" class="SectionTitle">Our Artist</div>
             <div data-v-2d007e3c="" class="Subtitle">BM Lio has worked with</div>
@@ -16664,122 +16779,252 @@
         </div>
         </div> -->
 
-        <div data-v-17dca041="" data-v-d18504f8="" id="Dev" class="Dev">
-          <div data-v-17dca041="" class="Content">
-            <!-- <div data-v-17dca041="" class="Filter"><img data-v-17dca041="" src="https://www.toxicskullsclub.io/_nuxt/img/devFilter.e2c13d7.png"></div> -->
-            <div data-v-17dca041="" class="SectionTitle" style="font-family: cursive;font-style: italic;">Our Dev</div>
-            <div data-v-17dca041="" class="Text" style="font-family: cursive;word-spacing: 0px;font-size: 28px;">
-              We have an entire dev team on this project! We’re honored to partner
-              with Pagzi Tech Inc. for this drop and all our future needs. They’re an
-              amazing team of engineers led by CEO Ekim Unal, specializing in
-              Blockchain and Web3 applications. The team is composed of frontend,
-              backend developers and programmers for complete and integrated
-              solutions. These guys focus on developing custom smart contracts for the
-              Ethereum blockchain. They’re masters of Solidity, web3 development,
-              ERC20, and ERC721 tokenization. This Dev team have pioneered the
-              development of custom solutions they call “The Pagzi Protocol” that
-              significantly reduce gas for running contracts, minting of NFTs, and
-              buying NFTs on secondary markets. Let's get ready to go to the moon!
+          <div data-v-17dca041="" data-v-d18504f8="" id="Dev" class="Dev">
+            <div data-v-17dca041="" class="Content">
+              <div data-v-17dca041="" class="Filter">
+                <!-- <img data-v-17dca041="" src="../images/bw2.png"></div> -->
+          
             </div>
           </div>
-        </div>
-        <div data-v-3b04164c="" data-v-d18504f8="" id="Team" class="Team">
-          <div data-v-3b04164c="" class="Content">
-            <div data-v-3b04164c="" class="SectionTitle">Meet the Team</div>
-            <div data-v-3b04164c="" class="Cards" style="justify-content: center;">
-              <div data-v-3b04164c="" class="Column">
-                <div data-v-3b04164c="" class="Card">
-                  <div data-v-3b04164c="" class="Image"><img data-v-3b04164c="" src="https://lh3.googleusercontent.com/8bSxNt9DS1OA2jz_ke1TWHfl77F06CY_5ZDw-rHoebOjGobQWwaBCiveRVRGoYR3FYpVzGctF6FTYg7CP5Rb1cl_gqJMcNizjo0SSQ=s0"
-                      alt="Team 1"></div>
-                  <div data-v-3b04164c="" class="Name">
-                    Scanty Hamy <span data-v-3b04164c="">Founder &amp; Project Lead</span></div>
-                  <div data-v-3b04164c=""><a data-v-3b04164c="" href="https://twitter.com/Captain_Scales"
+          <div data-v-3b04164c="" data-v-d18504f8="" id="Team" class="Team">
+            <div data-v-3b04164c="" class="Content">
+              <div data-v-3b04164c="" class="SectionTitle" style="color:#fff">Meet the Team</div>
+              <div data-v-3b04164c="" class="Cards" style="justify-content: center;">
+                <div data-v-3b04164c="" class="Column">
+                  <div data-v-3b04164c="" class="Card">
+                    <div data-v-3b04164c="" class="Image"><img data-v-3b04164c=""
+                        src="https://lh3.googleusercontent.com/8bSxNt9DS1OA2jz_ke1TWHfl77F06CY_5ZDw-rHoebOjGobQWwaBCiveRVRGoYR3FYpVzGctF6FTYg7CP5Rb1cl_gqJMcNizjo0SSQ=s0"
+                        alt="Team 1"></div>
+                    <div data-v-3b04164c="" class="Name" style="color:#fff">
+                      Scanty Hamy <span data-v-3b04164c="" style="color:#fff">Founder &amp; Project Lead</span></div>
+                    <div data-v-3b04164c=""><a data-v-3b04164c="" href="https://twitter.com/Captain_Scales"
+                        target="_blank"><button data-v-3b04164c="" class="Icon LeakLeft"><img data-v-3b04164c=""
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAABHNCSVQICAgIfAhkiAAAAmtJREFUSEu1ll0oX2Ecx3e87KWmRG2tZJZdLK2w2gU3u9puJrG2hpUsbROScjGS3LG5syFK5E5balq5EcqFCyWyl1JWNMprSBIt/31+ep7TcZzz/5+T8z/17Xn7/n6f5+3vYVwK6AuFQtmkeoxuoW00bhjGlD09vlhDOqlcp4jHtON3DsReI6YPFTnEjtD3mrwb+BKo16EEDS2l0YbuYdj1CibRVbw/0N0wMeuMTaIXypOmoZ/pqEZLKAfwmhcw0C+WZJFCtjAUo10N/U4jT0XtSSLAo+GyAExnfDESSY2HKH8jOcZjDXWacSeGBuD7TomBNtDf4hGqbStUMjT0HY1uhwSy6g7UD/yPdRxoK+16H9BJcjwSv4bGyl6r5bvlmWBgDP1Ev1AZavQBbQP6/hTKjGNonFAmq2Q3PSY6xnfZo1ds7XBqTSiVHjSL7qO3SFYe9Cf344N1ewdpvFSUE8qYoImSH6hcWPNMH1CfiQLImjIF6KoJlQpn2ktRHiXwPMBMnfv09uoP8BD1Z1EA1wP96AhVKy6krEHymzozqQtMJsn6mNhX+pzEJegGygnoQnUBrLJO2A5NYfDvBVZkDz2iIxnogStUba88xtMoLgB4AcBhex7HM+NC3cH4CemXR14Jv+d7bltdL5J9VkxA3tpKn+c7zAoL3HbKdfbAbhNUgd7IufjY6gGAZeH88gc/Q93WTcpElIXy0RMfIG2tBdgeKU6gDzE1o6eRzGHGvzLWBHDBSw5ze4HnEvBKXZ5UD8FLeL4h2c45D37Tcu5MgcczKg+A/HTkXGXLr6BDJP+iLiN5BueA/fMD097/VDDA0ogcpsQAAAAASUVORK5CYII="
+                            alt="Twitter"></button></a></div>
+                  </div>
+                </div>
+
+                <div data-v-3b04164c="" class="Column">
+                  <div data-v-3b04164c="" class="Card">
+                    <div data-v-3b04164c="" class="Image"><img data-v-3b04164c=""
+                        src="https://lh3.googleusercontent.com/8bSxNt9DS1OA2jz_ke1TWHfl77F06CY_5ZDw-rHoebOjGobQWwaBCiveRVRGoYR3FYpVzGctF6FTYg7CP5Rb1cl_gqJMcNizjo0SSQ=s0"
+                        alt="Team 3"></div>
+                    <div data-v-3b04164c="" class="Name" style="color:#fff">BM Leo <span data-v-3b04164c="">
+                        Artist</span>
+                    </div> <a data-v-3b04164c="" href="https://instagram.com/Basha" target="_blank"><button
+                        data-v-3b04164c="" class="Icon LeakLeft"><img data-v-3b04164c=""
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAABHNCSVQICAgIfAhkiAAAAxFJREFUSEullluIjkEYx72OSbK1NqfEohTKFjnd7IULF6TWOifSZq/Yi2XdiKxyQdbN5oKVyCmbU20pNxQuJJIcIonddstpV+whcvj8/l8zX8++3m99831T/+Z5Z57n/5+Zd+aZiQaZkkql5vBZDcrBZDDU9udo/8avA9wFJ6MoeuTjIm8gtBv7UI6EIW71CO5XQFoMoVqqBsPQjv0M/ACDA5hT+A4Ds8AUE5cWjBCaQeNr07ED+zidPwNE+rnCqUlUgSbTUSaxEzRsc401iDTmKxKPg3szbWdce7PE3vAxDbQjpE2Rd4FrDcHzwVG4PoiItpdUM9P8fPRhjATXcaj4nxL+c/EpBl/AE2L+ONIS6o8u/grtq127ZqYZ9kmsB2PUQGL4DKG/HmwEpWZAbdjNYC/k3/F7jq3NsZ3vY07sLPUm0CuxbxijQQsOK+Mzo38ibbfcUmSbeCsd5cS34l9K/dY78n0BewPoHlAMR237d8D/y6/Yl4DI1LYWjHXEnYh4OzOoELEDWiIXeY+6AsLPZtRjnPgy19ZIf42dfk5ibladBBYBLXUxRL+S1hFfbQxtECWBIv2/oGWEoIyAx9lGHBu9XYGFiD0IFVtBQIsLqobAZoN+E2Rg2gDaCCrL8b0RKjaPgIcuSId0Z9ISqg2xfVQ6GiqL8b0fKqbrpQvoWHRBoIOcWBDTlaIjonyqf6ZEkS45bRDneJi6zsXdpK6EqNcQDce+CFa5tib6dR9mSoiYyHTdaKepvAfngDLHJKCM4s+gBjEBse68xNzsplPfNqSWy9ufMJYi9DTeGZ9ZLrlRufMgWAfGG0Id8MtgD0L6v/8UxHxu7LFZ/xoBfu2T4vSzR9Chd4oyhw76C7sZsoidpn0LSGd95bmpoI1Ae5UnCoY2mpugQ2JeWTxVCJ4KJczmD3elW2a5XJWY7h/dQ75sRVADKKjAux6C88A/mBb415Uyu/KbL68wtLMKeV3NNnxHmECdfTfaZFrQrGLBDQjtUltGTB9MfRGVMsASMA7oORBa9CLWuVN+1Iv4jif4C91AkKSWVq/XAAAAAElFTkSuQmCC"
+                          alt="Instagram"></button></a>
+                  </div>
+                </div>
+                <div data-v-3b04164c="" class="Column">
+                  <div data-v-3b04164c="" class="Card">
+                    <div data-v-3b04164c="" class="Image"><img data-v-3b04164c=""
+                        src="https://lh3.googleusercontent.com/8bSxNt9DS1OA2jz_ke1TWHfl77F06CY_5ZDw-rHoebOjGobQWwaBCiveRVRGoYR3FYpVzGctF6FTYg7CP5Rb1cl_gqJMcNizjo0SSQ=s0"
+                        alt="Team 4"></div>
+                    <div data-v-3b04164c="" class="Name" style="color:#fff">Scanty Kee <span data-v-3b04164c="">Dev
+                        Team</span></div> <a data-v-3b04164c="" href="https://twitter.com/pagzitech"
                       target="_blank"><button data-v-3b04164c="" class="Icon LeakLeft"><img data-v-3b04164c=""
                           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAABHNCSVQICAgIfAhkiAAAAmtJREFUSEu1ll0oX2Ecx3e87KWmRG2tZJZdLK2w2gU3u9puJrG2hpUsbROScjGS3LG5syFK5E5balq5EcqFCyWyl1JWNMprSBIt/31+ep7TcZzz/5+T8z/17Xn7/n6f5+3vYVwK6AuFQtmkeoxuoW00bhjGlD09vlhDOqlcp4jHtON3DsReI6YPFTnEjtD3mrwb+BKo16EEDS2l0YbuYdj1CibRVbw/0N0wMeuMTaIXypOmoZ/pqEZLKAfwmhcw0C+WZJFCtjAUo10N/U4jT0XtSSLAo+GyAExnfDESSY2HKH8jOcZjDXWacSeGBuD7TomBNtDf4hGqbStUMjT0HY1uhwSy6g7UD/yPdRxoK+16H9BJcjwSv4bGyl6r5bvlmWBgDP1Ev1AZavQBbQP6/hTKjGNonFAmq2Q3PSY6xnfZo1ds7XBqTSiVHjSL7qO3SFYe9Cf344N1ewdpvFSUE8qYoImSH6hcWPNMH1CfiQLImjIF6KoJlQpn2ktRHiXwPMBMnfv09uoP8BD1Z1EA1wP96AhVKy6krEHymzozqQtMJsn6mNhX+pzEJegGygnoQnUBrLJO2A5NYfDvBVZkDz2iIxnogStUba88xtMoLgB4AcBhex7HM+NC3cH4CemXR14Jv+d7bltdL5J9VkxA3tpKn+c7zAoL3HbKdfbAbhNUgd7IufjY6gGAZeH88gc/Q93WTcpElIXy0RMfIG2tBdgeKU6gDzE1o6eRzGHGvzLWBHDBSw5ze4HnEvBKXZ5UD8FLeL4h2c45D37Tcu5MgcczKg+A/HTkXGXLr6BDJP+iLiN5BueA/fMD097/VDDA0ogcpsQAAAAASUVORK5CYII="
-                          alt="Twitter"></button></a></div>
-                </div>
-              </div>
-       
-              <div data-v-3b04164c="" class="Column">
-                <div data-v-3b04164c="" class="Card">
-                  <div data-v-3b04164c="" class="Image"><img data-v-3b04164c="" src="https://lh3.googleusercontent.com/8bSxNt9DS1OA2jz_ke1TWHfl77F06CY_5ZDw-rHoebOjGobQWwaBCiveRVRGoYR3FYpVzGctF6FTYg7CP5Rb1cl_gqJMcNizjo0SSQ=s0"
-                      alt="Team 3"></div>
-                  <div data-v-3b04164c="" class="Name">BM Leo <span data-v-3b04164c=""> Artist</span>
-                  </div> <a data-v-3b04164c="" href="https://instagram.com/Basha" target="_blank"><button
-                      data-v-3b04164c="" class="Icon LeakLeft"><img data-v-3b04164c=""
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAABHNCSVQICAgIfAhkiAAAAxFJREFUSEullluIjkEYx72OSbK1NqfEohTKFjnd7IULF6TWOifSZq/Yi2XdiKxyQdbN5oKVyCmbU20pNxQuJJIcIonddstpV+whcvj8/l8zX8++3m99831T/+Z5Z57n/5+Zd+aZiQaZkkql5vBZDcrBZDDU9udo/8avA9wFJ6MoeuTjIm8gtBv7UI6EIW71CO5XQFoMoVqqBsPQjv0M/ACDA5hT+A4Ds8AUE5cWjBCaQeNr07ED+zidPwNE+rnCqUlUgSbTUSaxEzRsc401iDTmKxKPg3szbWdce7PE3vAxDbQjpE2Rd4FrDcHzwVG4PoiItpdUM9P8fPRhjATXcaj4nxL+c/EpBl/AE2L+ONIS6o8u/grtq127ZqYZ9kmsB2PUQGL4DKG/HmwEpWZAbdjNYC/k3/F7jq3NsZ3vY07sLPUm0CuxbxijQQsOK+Mzo38ibbfcUmSbeCsd5cS34l9K/dY78n0BewPoHlAMR237d8D/y6/Yl4DI1LYWjHXEnYh4OzOoELEDWiIXeY+6AsLPZtRjnPgy19ZIf42dfk5ibladBBYBLXUxRL+S1hFfbQxtECWBIv2/oGWEoIyAx9lGHBu9XYGFiD0IFVtBQIsLqobAZoN+E2Rg2gDaCCrL8b0RKjaPgIcuSId0Z9ISqg2xfVQ6GiqL8b0fKqbrpQvoWHRBoIOcWBDTlaIjonyqf6ZEkS45bRDneJi6zsXdpK6EqNcQDce+CFa5tib6dR9mSoiYyHTdaKepvAfngDLHJKCM4s+gBjEBse68xNzsplPfNqSWy9ufMJYi9DTeGZ9ZLrlRufMgWAfGG0Id8MtgD0L6v/8UxHxu7LFZ/xoBfu2T4vSzR9Chd4oyhw76C7sZsoidpn0LSGd95bmpoI1Ae5UnCoY2mpugQ2JeWTxVCJ4KJczmD3elW2a5XJWY7h/dQ75sRVADKKjAux6C88A/mBb415Uyu/KbL68wtLMKeV3NNnxHmECdfTfaZFrQrGLBDQjtUltGTB9MfRGVMsASMA7oORBa9CLWuVN+1Iv4jif4C91AkKSWVq/XAAAAAElFTkSuQmCC"
-                        alt="Instagram"></button></a>
-                </div>
-              </div>
-              <div data-v-3b04164c="" class="Column">
-                <div data-v-3b04164c="" class="Card">
-                  <div data-v-3b04164c="" class="Image"><img data-v-3b04164c="" src="https://lh3.googleusercontent.com/8bSxNt9DS1OA2jz_ke1TWHfl77F06CY_5ZDw-rHoebOjGobQWwaBCiveRVRGoYR3FYpVzGctF6FTYg7CP5Rb1cl_gqJMcNizjo0SSQ=s0"
-                      alt="Team 4"></div>
-                  <div data-v-3b04164c="" class="Name">Scanty Kee <span data-v-3b04164c="">Dev Team</span></div> <a
-                    data-v-3b04164c="" href="https://twitter.com/pagzitech" target="_blank"><button data-v-3b04164c=""
-                      class="Icon LeakLeft"><img data-v-3b04164c=""
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAABHNCSVQICAgIfAhkiAAAAmtJREFUSEu1ll0oX2Ecx3e87KWmRG2tZJZdLK2w2gU3u9puJrG2hpUsbROScjGS3LG5syFK5E5balq5EcqFCyWyl1JWNMprSBIt/31+ep7TcZzz/5+T8z/17Xn7/n6f5+3vYVwK6AuFQtmkeoxuoW00bhjGlD09vlhDOqlcp4jHtON3DsReI6YPFTnEjtD3mrwb+BKo16EEDS2l0YbuYdj1CibRVbw/0N0wMeuMTaIXypOmoZ/pqEZLKAfwmhcw0C+WZJFCtjAUo10N/U4jT0XtSSLAo+GyAExnfDESSY2HKH8jOcZjDXWacSeGBuD7TomBNtDf4hGqbStUMjT0HY1uhwSy6g7UD/yPdRxoK+16H9BJcjwSv4bGyl6r5bvlmWBgDP1Ev1AZavQBbQP6/hTKjGNonFAmq2Q3PSY6xnfZo1ds7XBqTSiVHjSL7qO3SFYe9Cf344N1ewdpvFSUE8qYoImSH6hcWPNMH1CfiQLImjIF6KoJlQpn2ktRHiXwPMBMnfv09uoP8BD1Z1EA1wP96AhVKy6krEHymzozqQtMJsn6mNhX+pzEJegGygnoQnUBrLJO2A5NYfDvBVZkDz2iIxnogStUba88xtMoLgB4AcBhex7HM+NC3cH4CemXR14Jv+d7bltdL5J9VkxA3tpKn+c7zAoL3HbKdfbAbhNUgd7IufjY6gGAZeH88gc/Q93WTcpElIXy0RMfIG2tBdgeKU6gDzE1o6eRzGHGvzLWBHDBSw5ze4HnEvBKXZ5UD8FLeL4h2c45D37Tcu5MgcczKg+A/HTkXGXLr6BDJP+iLiN5BueA/fMD097/VDDA0ogcpsQAAAAASUVORK5CYII="
-                        alt="Twitter"></button></a>
+                          alt="Twitter"></button></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div data-v-8f97e78e="" data-v-d18504f8="" id="Faq" class="Faq">
-          <div data-v-8f97e78e="" class="Content">
-            <div data-v-8f97e78e="" class="SectionTitle">Faq's</div>
-            <div data-v-8f97e78e="" class="List">
-              
-              <div data-v-8f97e78e="" class="Item">
-                <div data-v-8f97e78e="" class="Question">
-                  Q. How do I contact the team?<br/>
-                  A. and feel free to ask any questions you have. All essential
-                  information will be announced on Discord.
+          <div data-v-8f97e78e="" data-v-d18504f8="" id="Faq" class="Faq">
+            <div data-v-8f97e78e="" class="Content">
+              <div data-v-8f97e78e="" class="SectionTitle" style="color:#fff">Faq's</div>
+              <div data-v-8f97e78e="" class="List">
 
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q. How do I contact the team?<br />
+                    A. and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
                 </div>
-                <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
-                    target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
-                  information will be announced on Discord.</div>
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.What is SCANTYVERSE AND SCANTY LIONS NFT?<br />
+                    A.
+                    SCANTY LIONS 4444 is a FIRST batch of NFT collection from SCANTYVERSE founded @Scanty Hamy | SCANTY,
+                    and TEAM.
+                    SCANTY LIONS are uniquely created from over 150+ hand drawn traits! Owning a SCANTY NFT allows you
+                    to take part in the project and be part of the community.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.What blockchain is it on?<br />
+                    A.
+                    The ERC-721 token is on the Ethereum Blockchain and file hosting is IPFS.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+
+
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.What can you do with your SCANTY LIONS?<br />
+                    A.Anything you want. Each holder is given The ERC-721 token is on the Ethereum Blockchain and file
+                    hosting is IPFS.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.What can you do with your SCANTY LIONS?<br />
+                    A.Anything you want. Each holder is given ownership and commercial usage rights of their NFT.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+
+
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.When is the official launch?<br />
+                    A.We will share the exact date and time on our 📢┃announcements channel.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.Is there a whitelist?<br />
+                    A.We value people who genuinely engage to help others in our community. Becoming one of these people
+                    could grant you a whitelist spot to mint our project. Visit our 📄┃how-to-whitelist channel to learn
+                    more about how you can get Whitelisted.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+
+
+
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.How can I buy a SCANTY LIONS?<br />
+                    A.You will be able to purchase a SCANTY LIONS NFT directly on this website with Ethereum (ETH) by
+                    using the MetaMask extension.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.What does “Mint” mean?<br />
+                    A.NFT Minting is the process by which your digital art or digital content becomes a part of the
+                    Ethereum blockchain
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.What is the mint price of a SCANTY LIONS NFT?<br />
+                    A.The minting price will be announced before launch. There will be a discounted Pre-Sale price for
+                    our Whitelisted members and a regular price for the Public Sale.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/toxic-skulls-club"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
+                <div data-v-8f97e78e="" class="Item">
+                  <div data-v-8f97e78e="" class="Question" style="color:#fff">
+                    Q.Can I take a sneak peek at my NFTs?<br />
+                    A.As soon as you mint one and they’re revealed, you can admire the latest addition to your art
+                    collection on OpenSea. Until that happens, visit the 👀┃sneak-peeks channel where you can take a
+                    look at our amazing art.
+
+                  </div>
+
+                  <div data-v-8f97e78e="" class="Answer"><a href="https://discord.gg/3sKdmmDvwD"
+                      target="blank">Join our Discord</a>, and feel free to ask any questions you have. All essential
+                    information will be announced on Discord.</div>
+                </div>
               </div>
             </div>
           </div>
+          <footer data-v-d18504f8="" id="Footer" class="Footer">
+            <div class="Content"><a href="/"><img src="../images/scantyverse.png"
+                  alt="Scanty Lions Club" class="Logo"></a>
+              <div class="InnerContent">
+                <div class="Buttons"><a href="https://www.instagram.com/scantyverse/" target="_blank"><button
+                      class="Icon LeakLeft"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAABHNCSVQICAgIfAhkiAAAAxFJREFUSEullluIjkEYx72OSbK1NqfEohTKFjnd7IULF6TWOifSZq/Yi2XdiKxyQdbN5oKVyCmbU20pNxQuJJIcIonddstpV+whcvj8/l8zX8++3m99831T/+Z5Z57n/5+Zd+aZiQaZkkql5vBZDcrBZDDU9udo/8avA9wFJ6MoeuTjIm8gtBv7UI6EIW71CO5XQFoMoVqqBsPQjv0M/ACDA5hT+A4Ds8AUE5cWjBCaQeNr07ED+zidPwNE+rnCqUlUgSbTUSaxEzRsc401iDTmKxKPg3szbWdce7PE3vAxDbQjpE2Rd4FrDcHzwVG4PoiItpdUM9P8fPRhjATXcaj4nxL+c/EpBl/AE2L+ONIS6o8u/grtq127ZqYZ9kmsB2PUQGL4DKG/HmwEpWZAbdjNYC/k3/F7jq3NsZ3vY07sLPUm0CuxbxijQQsOK+Mzo38ibbfcUmSbeCsd5cS34l9K/dY78n0BewPoHlAMR237d8D/y6/Yl4DI1LYWjHXEnYh4OzOoELEDWiIXeY+6AsLPZtRjnPgy19ZIf42dfk5ibladBBYBLXUxRL+S1hFfbQxtECWBIv2/oGWEoIyAx9lGHBu9XYGFiD0IFVtBQIsLqobAZoN+E2Rg2gDaCCrL8b0RKjaPgIcuSId0Z9ISqg2xfVQ6GiqL8b0fKqbrpQvoWHRBoIOcWBDTlaIjonyqf6ZEkS45bRDneJi6zsXdpK6EqNcQDce+CFa5tib6dR9mSoiYyHTdaKepvAfngDLHJKCM4s+gBjEBse68xNzsplPfNqSWy9ufMJYi9DTeGZ9ZLrlRufMgWAfGG0Id8MtgD0L6v/8UxHxu7LFZ/xoBfu2T4vSzR9Chd4oyhw76C7sZsoidpn0LSGd95bmpoI1Ae5UnCoY2mpugQ2JeWTxVCJ4KJczmD3elW2a5XJWY7h/dQ75sRVADKKjAux6C88A/mBb415Uyu/KbL68wtLMKeV3NNnxHmECdfTfaZFrQrGLBDQjtUltGTB9MfRGVMsASMA7oORBa9CLWuVN+1Iv4jif4C91AkKSWVq/XAAAAAElFTkSuQmCC"
+                        alt="Instagram"></button></a> <a href="https://twitter.com/Scantyverse"
+                    target="_blank"><button class="Icon LeakLeft"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAABHNCSVQICAgIfAhkiAAAAmtJREFUSEu1ll0oX2Ecx3e87KWmRG2tZJZdLK2w2gU3u9puJrG2hpUsbROScjGS3LG5syFK5E5balq5EcqFCyWyl1JWNMprSBIt/31+ep7TcZzz/5+T8z/17Xn7/n6f5+3vYVwK6AuFQtmkeoxuoW00bhjGlD09vlhDOqlcp4jHtON3DsReI6YPFTnEjtD3mrwb+BKo16EEDS2l0YbuYdj1CibRVbw/0N0wMeuMTaIXypOmoZ/pqEZLKAfwmhcw0C+WZJFCtjAUo10N/U4jT0XtSSLAo+GyAExnfDESSY2HKH8jOcZjDXWacSeGBuD7TomBNtDf4hGqbStUMjT0HY1uhwSy6g7UD/yPdRxoK+16H9BJcjwSv4bGyl6r5bvlmWBgDP1Ev1AZavQBbQP6/hTKjGNonFAmq2Q3PSY6xnfZo1ds7XBqTSiVHjSL7qO3SFYe9Cf344N1ewdpvFSUE8qYoImSH6hcWPNMH1CfiQLImjIF6KoJlQpn2ktRHiXwPMBMnfv09uoP8BD1Z1EA1wP96AhVKy6krEHymzozqQtMJsn6mNhX+pzEJegGygnoQnUBrLJO2A5NYfDvBVZkDz2iIxnogStUba88xtMoLgB4AcBhex7HM+NC3cH4CemXR14Jv+d7bltdL5J9VkxA3tpKn+c7zAoL3HbKdfbAbhNUgd7IufjY6gGAZeH88gc/Q93WTcpElIXy0RMfIG2tBdgeKU6gDzE1o6eRzGHGvzLWBHDBSw5ze4HnEvBKXZ5UD8FLeL4h2c45D37Tcu5MgcczKg+A/HTkXGXLr6BDJP+iLiN5BueA/fMD097/VDDA0ogcpsQAAAAASUVORK5CYII="
+                        alt="Twitter"></button></a> <a href="https://discord.gg/3sKdmmDvwD"
+                    target="_blank"><button class="LeakLeft LeakRight" style="color:#fff">Join Discord</button></a>
+                </div>
+                <div class="Links"><span><span class="Link" style="color:#fff">About</span> <span class="Link"
+                      style="color:#fff">Roadmap</span> <span class="Link" style="color:#fff">Artist</span> <span
+                      class="Link" style="color:#fff">Team</span> <span class="Link"
+                      style="color:#fff">FAQ</span></span> <a href="#faq" class="Link" style="color:#fff"> Terms</a>
+                </div>
+                <div class="Newsletter">
+                  <div class="Title" style="color:#fff">Sign up for latest news</div>
+                  <form class="Form">
+                    <div class="Input"><input type="email" required="required" placeholder="Your Email"></div> <button
+                      class="Purple LeakLeft LeakRight" style="color:#fff">Submit Now</button>
+                  </form>
+                </div>
+                <div class="Copyright" style="color:#fff">
+                  COPYRIGHT © 2022 Scantyverse. ALL RIGHTS RESERVED.
+                </div>
+              </div>
+            </div>
+          </footer>
         </div>
-        <footer data-v-d18504f8="" id="Footer" class="Footer">
-          <div class="Content"><a href="/"><img src="https://www.toxicskullsclub.io/_nuxt/img/logo.7bc81c1.png" alt="Scanty Lions Club"
-                class="Logo"></a>
-            <div class="InnerContent">
-              <div class="Buttons"><a href="https://www.instagram.com/toxicskullsclub/" target="_blank"><button
-                    class="Icon LeakLeft"><img
-                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAABHNCSVQICAgIfAhkiAAAAxFJREFUSEullluIjkEYx72OSbK1NqfEohTKFjnd7IULF6TWOifSZq/Yi2XdiKxyQdbN5oKVyCmbU20pNxQuJJIcIonddstpV+whcvj8/l8zX8++3m99831T/+Z5Z57n/5+Zd+aZiQaZkkql5vBZDcrBZDDU9udo/8avA9wFJ6MoeuTjIm8gtBv7UI6EIW71CO5XQFoMoVqqBsPQjv0M/ACDA5hT+A4Ds8AUE5cWjBCaQeNr07ED+zidPwNE+rnCqUlUgSbTUSaxEzRsc401iDTmKxKPg3szbWdce7PE3vAxDbQjpE2Rd4FrDcHzwVG4PoiItpdUM9P8fPRhjATXcaj4nxL+c/EpBl/AE2L+ONIS6o8u/grtq127ZqYZ9kmsB2PUQGL4DKG/HmwEpWZAbdjNYC/k3/F7jq3NsZ3vY07sLPUm0CuxbxijQQsOK+Mzo38ibbfcUmSbeCsd5cS34l9K/dY78n0BewPoHlAMR237d8D/y6/Yl4DI1LYWjHXEnYh4OzOoELEDWiIXeY+6AsLPZtRjnPgy19ZIf42dfk5ibladBBYBLXUxRL+S1hFfbQxtECWBIv2/oGWEoIyAx9lGHBu9XYGFiD0IFVtBQIsLqobAZoN+E2Rg2gDaCCrL8b0RKjaPgIcuSId0Z9ISqg2xfVQ6GiqL8b0fKqbrpQvoWHRBoIOcWBDTlaIjonyqf6ZEkS45bRDneJi6zsXdpK6EqNcQDce+CFa5tib6dR9mSoiYyHTdaKepvAfngDLHJKCM4s+gBjEBse68xNzsplPfNqSWy9ufMJYi9DTeGZ9ZLrlRufMgWAfGG0Id8MtgD0L6v/8UxHxu7LFZ/xoBfu2T4vSzR9Chd4oyhw76C7sZsoidpn0LSGd95bmpoI1Ae5UnCoY2mpugQ2JeWTxVCJ4KJczmD3elW2a5XJWY7h/dQ75sRVADKKjAux6C88A/mBb415Uyu/KbL68wtLMKeV3NNnxHmECdfTfaZFrQrGLBDQjtUltGTB9MfRGVMsASMA7oORBa9CLWuVN+1Iv4jif4C91AkKSWVq/XAAAAAElFTkSuQmCC"
-                      alt="Instagram"></button></a> <a href="https://twitter.com/toxicskullsclub"
-                  target="_blank"><button class="Icon LeakLeft"><img
-                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAABHNCSVQICAgIfAhkiAAAAmtJREFUSEu1ll0oX2Ecx3e87KWmRG2tZJZdLK2w2gU3u9puJrG2hpUsbROScjGS3LG5syFK5E5balq5EcqFCyWyl1JWNMprSBIt/31+ep7TcZzz/5+T8z/17Xn7/n6f5+3vYVwK6AuFQtmkeoxuoW00bhjGlD09vlhDOqlcp4jHtON3DsReI6YPFTnEjtD3mrwb+BKo16EEDS2l0YbuYdj1CibRVbw/0N0wMeuMTaIXypOmoZ/pqEZLKAfwmhcw0C+WZJFCtjAUo10N/U4jT0XtSSLAo+GyAExnfDESSY2HKH8jOcZjDXWacSeGBuD7TomBNtDf4hGqbStUMjT0HY1uhwSy6g7UD/yPdRxoK+16H9BJcjwSv4bGyl6r5bvlmWBgDP1Ev1AZavQBbQP6/hTKjGNonFAmq2Q3PSY6xnfZo1ds7XBqTSiVHjSL7qO3SFYe9Cf344N1ewdpvFSUE8qYoImSH6hcWPNMH1CfiQLImjIF6KoJlQpn2ktRHiXwPMBMnfv09uoP8BD1Z1EA1wP96AhVKy6krEHymzozqQtMJsn6mNhX+pzEJegGygnoQnUBrLJO2A5NYfDvBVZkDz2iIxnogStUba88xtMoLgB4AcBhex7HM+NC3cH4CemXR14Jv+d7bltdL5J9VkxA3tpKn+c7zAoL3HbKdfbAbhNUgd7IufjY6gGAZeH88gc/Q93WTcpElIXy0RMfIG2tBdgeKU6gDzE1o6eRzGHGvzLWBHDBSw5ze4HnEvBKXZ5UD8FLeL4h2c45D37Tcu5MgcczKg+A/HTkXGXLr6BDJP+iLiN5BueA/fMD097/VDDA0ogcpsQAAAAASUVORK5CYII="
-                      alt="Twitter"></button></a> <a href="https://discord.gg/toxic-skulls-club" target="_blank"><button
-                    class="LeakLeft LeakRight">Join Discord</button></a></div>
-              <div class="Links"><span><span class="Link">About</span> <span class="Link">Roadmap</span> <span
-                    class="Link">Artist</span> <span class="Link">Team</span> <span class="Link">FAQ</span></span> <a
-                  href="/terms" class="Link">Terms</a></div>
-              <div class="Newsletter">
-                <div class="Title">Sign up for latest news</div>
-                <form class="Form">
-                  <div class="Input"><input type="email" required="required" placeholder="Your Email"></div> <button
-                    class="Purple LeakLeft LeakRight">Submit Now</button>
-                </form>
-              </div>
-              <div class="Copyright">
-                COPYRIGHT © 2022 Scanty Lions CLUB. ALL RIGHTS RESERVED.
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
     </div>
-  </div>
 
 
 
 
-  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=264630972363016&amp;amp;ev=PageView&amp;amp;noscript=1"></noscript>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=264630972363016&amp;amp;ev=PageView&amp;amp;noscript=1"></noscript>
 </body>
 
 </html>
