@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+
+.footer {
+
+    &__wrapper {
+        @include background-cover;
+    }
+
+    &__content {
+        h2 {
+            @extend %mb-20;
+        }
+
+        p {
+            @extend %mb-30;
+            @include font-size(18px);
+            color: $white-color;
+            max-inline-size: 42ch;
+            margin-inline: auto;
+        }
+    }
+
+    &__copyright {
+        border-top: 2px solid rgba($white-color, $alpha: .05);
+    }
+
+}

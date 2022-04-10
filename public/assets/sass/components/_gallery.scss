@@ -1,0 +1,9 @@
+.gallery {
+    @extend %of-hidden;
+    @include background-cover;
+
+    &__slider {
+        @extend %of-hidden;
+        padding-inline: 0;
+    }
+}

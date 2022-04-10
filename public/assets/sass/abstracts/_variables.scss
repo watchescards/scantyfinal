@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+$bootstrap-sass-asset-helper: false !default;
+//
+// Variables
+// --------------------------------------------------
+
+
+// Colors
+
+$title-color: #0d142f;
+$theme-color: #abff87;
+$primary-color: #096f74;
+$secondary-color:#100620;
+$border-color: #ecf0f3;
+$white-color: #fff;
+$ash-color: #f9fafb;
+$body-color: #23162c;
+$black-color:#000000;
+$text-color: #ecffe1;
+
+
+// social-media color
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkedin: #007bb5;
+$skype: #2fb7df;
+$youtube: #cd201f;
+$google: #dd4b39;
+$camera: #e4405f;
+$instagram: #e4405f;
+$tumblr: #34465d;
+$behance: #1769ff;
+$star: #e9ba17;
+$green: #0be881;
+$green-h: #0fbcf9;
+$red: #f53b57;
+$yellow: #dec32b;
+$nell: #212fb4;
+$navy: #d8e0f3;
+$placeholder: #a0a6bc;
+
+
+$gradient-y:linear-gradient(0deg, rgb(246, 255, 242) 0%, rgb(195, 255, 169) 100%);
+$gradient-y-rev:linear-gradient(180deg, rgb(246, 255, 242) 0%, rgb(195, 255, 169) 100%);
+$gradient-x:linear-gradient(90deg, rgb(246, 255, 242) 0%, rgb(195, 255, 169) 100%);
+$gradient-x-rev:linear-gradient(-90deg, rgb(246, 255, 242) 0%, rgb(195, 255, 169) 100%);
+
+//== Typography
+
+// font-family
+
+$text-font: 'Alfa Slab One',
+cursive;
+
+$title-font: 'Alfa Slab One',
+cursive;
+
+// font-size
+
+$fs-base: 16px !default;
+$fs-h1: 100px;
+$fs-h2: 72px;
+$fs-h3: 48px;
+$fs-h4: 30px;
+$fs-h5: 20px;
+$fs-h6: 18px;
+
+
+
+//  transition
+$transition: all 0.3s ease;

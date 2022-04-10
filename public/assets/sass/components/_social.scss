@@ -1,0 +1,28 @@
+.social {
+    @extend %flex;
+    @extend %align-items-center;
+    @extend %list-none;
+    @extend %pl-0;
+    @extend %mb-0;
+    gap: 15px;
+
+    &__link {
+        @extend %d-inline-block;
+        @extend %text-center;
+        @include box(50px);
+        @include add-prefix(transition, all .2s linear);
+        line-height: 50px;
+        border-radius: 5px;
+
+        svg {
+            color: $primary-color;
+            @include font-size(17px);
+        }
+
+        @include hover {
+            background-color: $theme-color;
+
+            @include add-prefix(transform, translateY(-3px));
+        }
+    }
+}

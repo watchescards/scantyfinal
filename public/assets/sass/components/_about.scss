@@ -1,0 +1,17 @@
+.about {
+    @extend %of-hidden;
+
+    &__thumb {
+        @extend %text-center;
+    }
+
+    &__content {
+        h2 {
+            @extend %mb-30;
+        }
+
+        p {
+            @include font-size(18px);
+        }
+    }
+}

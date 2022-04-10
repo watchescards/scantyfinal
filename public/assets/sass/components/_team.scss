@@ -1,0 +1,51 @@
+.team {
+    @extend %of-hidden;
+    @include background-cover;
+
+    &__item {
+        @extend %of-hidden,
+        %p-30;
+        @include add-prefix(transition, $transition);
+        background: $gradient-y;
+        border-radius: 4px;
+        text-align: center;
+
+        &:hover {
+            background: $gradient-y-rev;
+
+            .team__thumb {
+                img {
+                    @include add-prefix(transform, rotate(5deg));
+
+                }
+            }
+        }
+    }
+
+    &__thumb {
+        @extend %of-hidden,
+        %mb-30;
+
+        img {
+            @extend %d-inline-block;
+            @include add-prefix(transition, $transition);
+        }
+    }
+
+    &__content {
+        @extend %p-rel;
+        z-index: 1;
+
+        h5 {
+            a {
+                color: $title-color;
+            }
+        }
+
+        p {
+            @extend %mb-5;
+            color: #555;
+            @include font-size(16px);
+        }
+    }
+}

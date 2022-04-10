@@ -1,0 +1,33 @@
+.roadmap {
+    @extend %of-hidden;
+
+    &__item {
+        @extend %text-center;
+        padding: 30px 20px;
+        background: $gradient-y;
+        border-radius: 5px;
+        @include add-prefix(transition, $transition);
+
+        @include hover {
+            background: $gradient-y-rev;
+            @include add-prefix(transform, translateY(-3px));
+        }
+
+    }
+
+    &__thumb {
+        @extend %mb-20;
+    }
+
+    &__content {
+        h4 {
+            @extend %mb-15;
+        }
+
+        h4,
+        p {
+            color: $title-color;
+        }
+    }
+
+}

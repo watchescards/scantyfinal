@@ -1,0 +1,33 @@
+.mint {
+    @extend %p-rel,
+    %of-hidden;
+
+
+    &__content {
+        @extend %p-rel;
+        z-index: 1;
+    }
+
+    &__name {
+        color: $theme-color;
+    }
+
+    &__thumb {
+        @include breakpoint(lg) {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    .monkey-icon {
+        display: none;
+
+        @include breakpoint(xxxl) {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 3%;
+            @include animation(left-right 3s cubic-bezier(.65, .05, .36, 1) infinite alternate);
+        }
+    }
+}

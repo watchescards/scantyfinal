@@ -1,0 +1,18 @@
+.community {
+    @include background-cover;
+    @extend %of-hidden;
+
+    &__content {
+        h2 {
+            @extend %mb-20;
+        }
+
+        p {
+            @extend %mb-40;
+
+            @include breakpoint(lg) {
+                margin-bottom: 45px;
+            }
+        }
+    }
+}

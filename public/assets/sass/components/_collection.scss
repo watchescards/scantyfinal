@@ -1,0 +1,19 @@
+.collection {
+    @extend %of-hidden;
+
+    &__thumb {
+        &-slider-1 {
+            @include add-prefix(transform, translateX(20px));
+
+            @include breakpoint(md) {
+                @include add-prefix(transform, translateX(50px));
+            }
+        }
+
+        &-item {
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+}

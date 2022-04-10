@@ -1,0 +1,200 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.header {
+    background-color: $body-color;
+
+    &--fixed {
+        @include breakpoint(lg) {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+            background-color: $secondary-color;
+        }
+    }
+
+    .navbar {
+        padding-block: 1.35rem;
+    }
+
+    .navbar-collapse {
+        @extend %mt-20;
+
+        @include breakpoint(xl) {
+            margin-top: 0;
+        }
+    }
+
+}
+
+.nav-link {
+    color: $white-color;
+    @extend %text-center;
+    font-family: $text-font;
+
+    @include breakpoint(xl) {
+        text-align: left;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    &--active,
+    &:hover,
+    &:focus {
+        color: $theme-color;
+    }
+}
+
+.navbar-toggler {
+    @extend %p-0;
+    @extend %mb-10;
+    @extend %mr-15;
+
+    &:focus {
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+
+
+
+    &--icon {
+        @extend %p-rel;
+        @extend %d-inline-block;
+        background-color: $white-color;
+        height: 2px;
+        width: 27px;
+        @include add-prefix(transform, rotate(45deg) translateY(-5px));
+
+        &:after,
+        &:before {
+            @extend %p-abs;
+            @extend %w-100;
+            background-color: $white-color;
+            height: 2px;
+            @include add-prefix(transition, .3s all linear);
+        }
+
+        &:after {
+            bottom: 7px;
+            left: 0;
+            @include add-prefix(transform, rotate(-90deg) translateX(-6px));
+        }
+
+        &:before {
+            top: 7px;
+            left: 0;
+            opacity: 0;
+            @include add-prefix(transform, translateX(20px))
+        }
+
+
+    }
+
+    &.collapsed {
+        .navbar-toggler--icon {
+            transform: none;
+
+            &:after {
+                transform: none;
+            }
+
+            &:before {
+                opacity: 1;
+                transform: none;
+            }
+        }
+    }
+}
+
+.social-btns {
+    @extend %flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+
+    @include breakpoint(xl) {
+        margin-left: 50px;
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .default-btn {
+        border-radius: 5px;
+
+        span {
+            text-transform: capitalize;
+        }
+
+        &:hover {
+            @include add-prefix(transform, none);
+            background-color: darken($theme-color, $amount:10);
+        }
+    }
+}
+
+
+/*=-=-=-======< Section header start here >==========-=-=-=-*/
+.section-header {
+    margin-bottom: 40px;
+
+    &__content {
+        @extend %text-center;
+
+        @include breakpoint(lg) {
+            h2 {
+                max-inline-size: 10ch;
+                margin-inline: auto;
+                text-transform: uppercase;
+
+            }
+
+            p {
+                max-inline-size: 41ch;
+                margin: auto;
+            }
+        }
+
+
+        h2 {
+            @extend %mb-15;
+        }
+    }
+
+    @include breakpoint(lg) {
+        margin-bottom: 60px;
+    }
+
+
+}
+
+/*=-=-=-======< Section header end here >==========-=-=-=-*/
+
+
+/*=-=-=-======< Page header start here >==========-=-=-=-*/
+.page-header {
+    padding-block: 70px;
+
+    @include breakpoint(lg) {
+        padding-block: 100px;
+    }
+
+    @include breakpoint(xxl) {
+        padding-block: 120px;
+    }
+
+    .breadcrumb-item {
+
+        &:before,
+        &.active {
+            color: $white-color;
+        }
+
+    }
+}
+
+/*=-=-=-======< Page header end here >==========-=-=-=-*/
